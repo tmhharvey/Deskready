@@ -2,23 +2,23 @@
     margin-top: 50px;
     background-image: linear-gradient(
       to right bottom,
-      rgba($dark-gray, 0.8),
-      rgba($black, 0.8)
+      rgba($dark-gray, 0.9),
+      rgba($black, 0.9)
     ),
     url(../img/gallery/training.jpg);
     position: relative;
     z-index: 0;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     @media #{$md}{
-        margin-top: -276px;
+        margin-top: 100px;
     }
     @media #{$sm}{
-        margin-top: -249px;
+        margin-top: 100px;
         height: 800px;
     }
     @media #{$xs}{
-        margin-top: -363px;
+        margin-top: 100px;
     }
     .caption-overlay{
         position: absolute;
@@ -43,12 +43,14 @@
         }
     }
     .experience-caption{
-        padding-top: 120px;
-        padding-bottom: 120px;
         padding: 120px 100px;
         background-color: rgba(32,98,0,0.802);
         position: relative;
         z-index: 1;
+        @media #{$xs}{
+          padding: 100px 20px;
+          margin-top: 10px;
+      }
         h2 {
             color: #fff;
             font-size: 50px;
@@ -57,6 +59,7 @@
             margin-bottom: 30px;
             @media #{$sm}{
                 font-size: 31px;
+                margin-top: 10px;
             }
             @media #{$xs}{
                 font-size: 27px;
@@ -70,7 +73,7 @@
 }
 
 .experience-testimonial {
-  padding: 100px 0px;
+  padding: 200px 20px;
   .testimonial-caption{
     .testimonial-top-cap{
         img{
@@ -124,7 +127,7 @@
                 color:$theme-color;
                 font-size: 20px;
                 font-weight: 600;
-                color: $theme-color;
+                color: $theme-color2;
                 @media #{$xs}{
                     font-size:17px;
                 }
