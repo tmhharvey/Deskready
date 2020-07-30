@@ -1,3 +1,4 @@
+@import 'color';
 
 // Home Page Blog
 .home-blog-area{
@@ -14,7 +15,7 @@
                 }
                 // Date
                 .blog-date{
-                    background:#ff1313;
+                    background:$theme-color2;
                     padding:15px 34px;
                     display: inline-block;
                     position: absolute;
@@ -799,6 +800,8 @@
         margin-bottom: 30px;
         .btn_1{
             margin-top: 0px;
+            color: $theme-color;
+            font-size: 40px;
         }
     }
 

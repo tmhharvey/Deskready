@@ -9,6 +9,12 @@ body {
 	font-style: normal;
 	font-size: 16px;
 }
+
+// .row {
+//   margin-right: 0;
+//   margin-left: 0; 
+// }
+
 h1,
 h2,
 h3,
@@ -270,12 +276,31 @@ hr {
 	z-index: 1;
 	border: 0;
 	overflow: hidden;
-	margin:0;
+  margin:0;
+  border-radius: 5px;
+  &--white {
+    background-color: $white;
+    color: $theme-color;
+    font-weight: 700;
+    &:after{
+      position: absolute;
+      content: "";
+      width: 30px;
+      background: $black !important;
+      left: 37px;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 1px;
+    }
+    &:hover {
+      color: $white;
+    }
+  }
 	&::after{
 		position: absolute;
 		content: "";
 		width: 30px;
-		background: #fff;
+		background: $white;
 		left: 37px;
 		top: 50%;
 		transform: translateY(-50%);
@@ -350,14 +375,8 @@ hr {
 	font-size: 16px;
 	border-radius: 0px;
 }
-.white-btn{
-	background: #fff;
-	color: #000;
-	&::before{
-		background:#000;
-		color: #fff;
-	}
-}
+
+
 .border-btn{
 	border: 1px solid #ff5600;
 	color: #464d65;
@@ -913,7 +932,7 @@ hr {
 			content: "";
 			width: 50px;
 			height: 2px;
-			background: #292c37;
+			background: $theme-color;
 			top: 0;
 			left: -67px;
 			top: 50%;
@@ -961,7 +980,7 @@ hr {
 	span{
 		color: #fff;
 		&::before{
-			background: #ff1313;
+			background: $theme-color2;
 		}
 	}
 	h2 {

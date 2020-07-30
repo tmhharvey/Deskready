@@ -82,8 +82,8 @@
             &::after{
                 position: absolute;
                 content: "";
-                width: 60px;
-                background: $theme-color;
+                width: 100%;
+                background: $theme-color2;
                 left: 0;
                 bottom: -1px;
                 height: 3px;

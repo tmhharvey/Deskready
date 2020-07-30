@@ -29,9 +29,12 @@
         padding-bottom: 70px;
     }
     .services-caption{
-        background: #f8f8f8;
+        background: $off-white;
         padding:84px 45px 56px;
+        box-shadow: 4px 4px 8px;
+        color: $theme-color;
         border-radius: 7px;
+        border: 1px solid $white;
         @include transition(.5s);
         @media #{$lg}{
             padding: 84px 25px 56px;
@@ -72,9 +75,16 @@
 }
 // hover
 .services-caption:hover {
+
+  color: $theme-color;
+
+  box-shadow: 8px 8px 15px;
+  transform: translateY(-15px);
+  background-color: #fff;
+  border: 1px solid $theme-color2;
     .service-icon {
         i{
-            color:$theme-color;
+          
         }
     }
 }
