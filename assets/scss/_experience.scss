@@ -44,11 +44,11 @@
     .experience-caption{
         padding: 120px 100px;
         // background-color: rgba(66,204,0,0.752);
-        background: linear-gradient(
-          to right bottom,
-          rgba($theme-color, 0.8), 90%,
-          rgba($theme-color, 0.6)
-        );
+        // background: linear-gradient(
+        //   to right bottom,
+        //   rgba($theme-color, 0.8), 90%,
+        //   rgba($theme-color, 0.6)
+        // );
         position: relative;
         z-index: 1;
         @media #{$xs}{
