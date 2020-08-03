@@ -2,8 +2,8 @@
     margin-top: 50px;
     background-image: linear-gradient(
       to right bottom,
-      rgba($dark-gray, 0.9), 80%,
-      rgba($theme-color, 0.8)
+      rgba($gray2, 0.9), 60%,
+      rgba($theme-color2, 0.8)
     ),
     url(../img/gallery/geo4.jpg);
     position: relative;
@@ -46,8 +46,8 @@
         // background-color: rgba(66,204,0,0.752);
         background: linear-gradient(
           to right bottom,
-          rgba($dark-gray2, 0.8), 90%,
-          rgba($dark-gray2, 0.6)
+          rgba($theme-color, 0.8), 90%,
+          rgba($theme-color, 0.6)
         );
         position: relative;
         z-index: 1;

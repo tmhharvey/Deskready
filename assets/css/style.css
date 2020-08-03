@@ -2790,7 +2790,7 @@ nav.nav-menu-show {
 
 .experience-area {
   margin-top: 50px;
-  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.9), 80%, rgba(32, 98, 0, 0.8)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(101, 105, 106, 0.9), 60%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
   position: relative;
   z-index: 0;
   background-size: cover;
@@ -2827,7 +2827,7 @@ nav.nav-menu-show {
         height: 56%; } }
   .experience-area .experience-caption {
     padding: 120px 100px;
-    background: linear-gradient(to right bottom, rgba(22, 22, 22, 0.8), 90%, rgba(22, 22, 22, 0.6));
+    background: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), 90%, rgba(32, 98, 0, 0.6));
     position: relative;
     z-index: 1; }
     @media (max-width: 575px) {
