@@ -2561,8 +2561,8 @@ nav.nav-menu-show {
     background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 5vw;
+    right: 5vw;
     content: '';
     height: 570px;
     background-repeat: no-repeat; }
