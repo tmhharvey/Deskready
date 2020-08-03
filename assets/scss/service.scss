@@ -50,8 +50,8 @@
               height: 100%;
               background-image: linear-gradient(
                 to right bottom,
-                rgba($theme-color, 0.95),
-                rgba($theme-color, 0.95)
+                rgba($theme-color2, 0.95), 25%,
+                rgba($theme-color2, 0.95)
               );
               @include transform(translateY(40%));
               @include transition(.5s);
