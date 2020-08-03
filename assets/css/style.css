@@ -2827,7 +2827,7 @@ nav.nav-menu-show {
         height: 56%; } }
   .experience-area .experience-caption {
     padding: 120px 100px;
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), 90%, rgba(0, 0, 0, 0.6));
+    background: linear-gradient(to right bottom, rgba(22, 22, 22, 0.8), 90%, rgba(22, 22, 22, 0.6));
     position: relative;
     z-index: 1; }
     @media (max-width: 575px) {
