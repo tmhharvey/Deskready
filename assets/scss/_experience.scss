@@ -5,10 +5,10 @@
       rgba($dark-gray, 0.9), 80%,
       rgba($theme-color, 0.8)
     ),
-    url(../img/gallery/training.jpg);
+    url(../img/gallery/geo4.jpg);
     position: relative;
     z-index: 0;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     @media #{$md}{
         margin-top: 100px;
