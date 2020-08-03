@@ -2272,7 +2272,8 @@ nav.nav-menu-show {
   color: #206200; }
 
 .slider-height {
-  height: 90vh; }
+  height: 95vh;
+  margin-bottom: 5vh; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-height {
       height: 90vh; } }
@@ -3092,7 +3093,7 @@ nav.nav-menu-show {
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text {
   margin-left: 20px; }
   .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
-    color: #42cc00;
+    color: #206200;
     font-size: 20px;
     font-weight: 600;
     color: #f04e3c; }
