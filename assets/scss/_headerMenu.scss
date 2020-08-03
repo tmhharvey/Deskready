@@ -1,5 +1,12 @@
+@import 'color';
+
 //! Header left right padding
 .header-area {
+  // background-image: linear-gradient(
+  //   to right,
+  //   rgba($theme-color, 0.7),
+  //   rgba($theme-color2, 0.6)
+  // );
     .main-header {
         padding: 0px 130px;
         @media #{$laptop}{

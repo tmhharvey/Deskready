@@ -2,8 +2,8 @@
     margin-top: 50px;
     background-image: linear-gradient(
       to right bottom,
-      rgba($dark-gray, 0.9),
-      rgba($black, 0.9)
+      rgba($dark-gray, 0.9), 80%,
+      rgba($theme-color, 0.8)
     ),
     url(../img/gallery/training.jpg);
     position: relative;
@@ -22,8 +22,7 @@
     }
     .caption-overlay{
         position: absolute;
-        content: "";
-     
+        content: ""; 
         width: 55%;
         height: 100%;
         left: 0;
@@ -44,7 +43,7 @@
     }
     .experience-caption{
         padding: 120px 100px;
-        background-color: rgba(32,98,0,0.802);
+        background-color: rgba(66,204,0,0.752);
         position: relative;
         z-index: 1;
         @media #{$xs}{

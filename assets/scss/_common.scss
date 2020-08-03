@@ -262,13 +262,10 @@ hr {
 	font-weight: 400;
 	border-radius: 0px;
 	line-height: 1;
-
 	-moz-user-select: none;
-
 	letter-spacing: 1px;
 	line-height: 0;
 	margin-bottom: 0;
-
 	margin: 10px;
 	cursor: pointer;
 	transition: color 0.4s linear;
@@ -278,6 +275,7 @@ hr {
 	overflow: hidden;
   margin:0;
   border-radius: 5px;
+
   &--white {
     background-color: $white;
     color: $theme-color;
@@ -291,6 +289,9 @@ hr {
       top: 50%;
       transform: translateY(-50%);
       height: 1px;
+    }
+    &:before {
+      background: $theme-color2 !important;
     }
     &:hover {
       color: $white;
@@ -313,7 +314,7 @@ hr {
 		top: 0;
 		width: 101%;
 		height: 101%;
-		background: $theme-color2;
+		background: $theme-color;
 		z-index: 1;
 		border-radius: 5px;
 		transition: transform 0.5s;
@@ -433,7 +434,7 @@ hr {
 	}
 /* scrollUp */
 	#scrollUp,#back-top  {
-		background:$theme-color;
+		background: $theme-color2;
 		height: 50px;
 		width: 50px;
 		right: 31px;
@@ -448,7 +449,10 @@ hr {
 		border-radius: 50%;
 		line-height: 48px;
 		border: 2px solid transparent;
-		box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+    &:hover {
+      background: $theme-color;
+    }
 		a i {
 			display: block;
 			line-height: 50px;
@@ -913,8 +917,18 @@ hr {
 	}
 	@media #{$sm}{
 		margin-bottom: 50px;
+  }
+  p {
+    color: #fff;
+    font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 22px;
+		text-transform: uppercase;
+		display: inline-block;
+		position: relative;
+		letter-spacing: 0.05em;
 	}
-	span{
+	span {
 		font-size: 18px;
 		font-weight: 700;
 		margin-bottom: 22px;
@@ -932,7 +946,7 @@ hr {
 			content: "";
 			width: 50px;
 			height: 2px;
-			background: $theme-color;
+			background: $theme-color2;
 			top: 0;
 			left: -67px;
 			top: 50%;
@@ -982,7 +996,8 @@ hr {
 		&::before{
 			background: $theme-color2;
 		}
-	}
+  }
+
 	h2 {
 		color: #ffff;
 		@media #{$xs}{
