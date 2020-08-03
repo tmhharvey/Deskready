@@ -7,6 +7,7 @@
   //   rgba($theme-color, 0.7),
   //   rgba($theme-color2, 0.6)
   // );
+  color: black !important;
     .main-header {
         padding: 0px 130px;
         @media #{$laptop}{
@@ -149,7 +150,7 @@ nav.nav-menu-show {
 }
 
 .main-menu.black-menu ul li a {
-  color: #fff;
+  color: black !important;
   padding: 35px 0;
 }
 
@@ -169,8 +170,8 @@ nav.nav-menu-show {
         &.sticky-bar{
           background: linear-gradient(
             to right bottom,
-            rgba(#161616, 0.99), 90%,
-            rgba(#161616, 0.99)
+            rgba(#fff, 0.99), 90%,
+            rgba(#fff, 0.99)
           );
             &.sticky {
                 .main-menu{
