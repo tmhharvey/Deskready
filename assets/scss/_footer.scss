@@ -4,8 +4,8 @@
     // Footer Top
     background-image: linear-gradient(
       to right bottom,
-      rgba($dark-gray, 0.9), 85%,
-      rgba($theme-color, 0.9)
+      rgba($theme-color, 0.9), 75%,
+      rgba($theme-color2, 0.9)
     ),
     url(../img/gallery/geo4.jpg);
     .footer-top{
@@ -74,7 +74,7 @@
                 float: left;
             }
             p{
-                color: #888888;
+                color: $off-white;
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 2;

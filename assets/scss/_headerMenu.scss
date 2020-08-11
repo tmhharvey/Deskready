@@ -7,7 +7,6 @@
   //   rgba($theme-color, 0.7),
   //   rgba($theme-color2, 0.6)
   // );
-  color: black !important;
     .main-header {
         padding: 0px 130px;
         @media #{$laptop}{
@@ -32,20 +31,18 @@
             ul {
                 li {
                     display: inline-block;
-                    position: relative;
+                    position: relative;       
                     a {
                         color: #fff;
                         display: block;
                         font-weight: 300;
                         padding: 29px 24px;
                         text-transform: capitalize;
+                        &:hover{
+                          color: $theme-color2;
+                        }
                         @media #{$lg}{
                             padding: 29px 17px;
-                        }
-                    }
-                    &:hover{
-                        & > {
-                            color: #f7951e
                         }
                     }
 
@@ -150,7 +147,7 @@ nav.nav-menu-show {
 }
 
 .main-menu.black-menu ul li a {
-  color: black !important;
+  color: #fff;
   padding: 35px 0;
 }
 
@@ -170,8 +167,8 @@ nav.nav-menu-show {
         &.sticky-bar{
           background: linear-gradient(
             to right bottom,
-            rgba(#fff, 0.99), 90%,
-            rgba(#fff, 0.99)
+            rgba(#161616, 0.99), 90%,
+            rgba(#161616, 0.99)
           );
             &.sticky {
                 .main-menu{

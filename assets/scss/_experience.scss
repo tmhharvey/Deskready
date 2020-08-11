@@ -91,7 +91,7 @@
             line-height: 1.7;
             margin-bottom: 50px;
             font-size: 16px;
-            color: #d3d3d4;
+            color: $gray;
             font-weight: 3000;
             @media #{$lg}{
                 font-size: 20px;
@@ -122,7 +122,13 @@
 
         }
         .founder-text{
-            margin-left: 20px;
+            margin-left: 15px;
+            padding: 10px 30px;
+            background-color: $off-white;
+            border-radius: 20px;
+            position: relative;
+            top: -55px;
+            // left: -50px;
             span{
                 color:$theme-color;
                 font-size: 20px;
@@ -137,7 +143,19 @@
                 font-weight:500;
                 line-height:1.5 ;
                 font-size: 14px;
+                margin-bottom: 5px !important;
             }
+            :after {
+              content:'';
+              position: absolute;
+              top: 100%;
+              left: 10%;
+              width: 0;
+              height: 0;
+              border-top: solid 15px $off-white;
+              border-left: solid 15px transparent;
+              border-right: solid 15px transparent;
+          }
         }
     }
 }
