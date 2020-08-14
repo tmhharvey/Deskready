@@ -31,7 +31,7 @@
 	@import 'variables';
 	@import 'mixins';
 	@import 'overlay';
-	@import 'common';
+  @import 'common';
 	@import 'color';
 
 	
@@ -41,13 +41,15 @@
 	@import 'about';
   @import 'services_section';
   @import 'service';
-	@import 'popular-work';
+  @import 'popular-work';
+  @import 'project-area';
 	@import 'experience';
 	@import 'startups';
   @import 'testimonial';
   @import 'testimonial2';
 	@import 'team';
-	@import 'footer';
+  @import 'footer';
+
 
 // inner Page
 

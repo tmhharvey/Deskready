@@ -2093,7 +2093,6 @@ hr {
     display: inline-block;
     position: relative; }
     .header-area .main-header .main-menu ul li a {
-      color: #fff;
       display: block;
       font-weight: 300;
       padding: 29px 24px;
@@ -2187,7 +2186,6 @@ nav.nav-menu-show {
   visibility: visible; }
 
 .main-menu.black-menu ul li a {
-  color: #fff;
   padding: 35px 0; }
 
 .header-transparent {
@@ -2198,7 +2196,7 @@ nav.nav-menu-show {
   z-index: 9; }
 
 .header-sticky.sticky-bar {
-  background: linear-gradient(to right bottom, rgba(22, 22, 22, 0.99), 90%, rgba(22, 22, 22, 0.99)); }
+  background: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), rgba(42, 52, 57, 0.99)); }
   .header-sticky.sticky-bar.sticky .main-menu ul li a {
     padding: 20px 20px !important; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2232,7 +2230,11 @@ nav.nav-menu-show {
         font-size: 15px;
         padding: 7px 10px; }
       .mobile_menu .slicknav_menu .slicknav_nav .slicknav_item a {
-        padding: 0 !important; }
+        padding: 0 !important;
+        color: #206200 !important; }
+
+.sticky-menu-color {
+  color: #42cc00 !important; }
 
 /*-------------   Color Variable  --------------*/
 .white-bg {
@@ -2272,7 +2274,7 @@ nav.nav-menu-show {
   color: #206200; }
 
 .slider-height {
-  height: 95vh;
+  height: 99vh;
   margin-bottom: 5vh; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-height {
@@ -2309,7 +2311,7 @@ nav.nav-menu-show {
   background-position: center center;
   background-size: cover;
   background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.8), rgba(22, 22, 26, 0.8)), url(../img/hero/header1.jpeg);
-  clip-path: polygon(50% 100%, 100% 83%, 100% 0, 0 0, 0 83%); }
+  clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%); }
 
 .slider-area .slide-full-content {
   overflow: hidden; }
@@ -2530,30 +2532,6 @@ nav.nav-menu-show {
 @media (max-width: 575px) {
   .about-caption {
     margin-bottom: 35px; } }
-
-.project_area {
-  padding: 75px 75px;
-  margin: 0px 0px 150px 0px;
-  background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
-  @media (max-width: 767px) {
-    .project_area {
-      padding: 100px 0; } }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .project_area {
-      padding: 100px 0; } }
-  .project_area .project_info h3 {
-    color: #fff;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 55px; }
-  .project_area .project_info p {
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 26px;
-    margin-top: 8px; }
-  .project_area .project_info .boxed-btn3-white:hover {
-    background: #fff;
-    color: #28AE60 !important; }
 
 .service-area {
   position: relative;
@@ -2790,6 +2768,30 @@ nav.nav-menu-show {
   .popular-work-area .single-cat.single-cat2 {
     background: #f7fbff; }
 
+.project_area {
+  padding: 75px 75px;
+  margin: 0px 0px 0px 0px;
+  background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
+  @media (max-width: 767px) {
+    .project_area {
+      padding: 100px 0; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .project_area {
+      padding: 100px 0; } }
+  .project_area .project_info h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 55px; }
+  .project_area .project_info p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 26px;
+    margin-top: 8px; }
+  .project_area .project_info .boxed-btn3-white:hover {
+    background: #fff;
+    color: #28AE60 !important; }
+
 .experience-area {
   margin-top: 50px;
   background-image: linear-gradient(to right bottom, rgba(101, 105, 106, 0.9), 60%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
@@ -2855,75 +2857,81 @@ nav.nav-menu-show {
 
 .experience-testimonial {
   padding: 200px 20px; }
-  .experience-testimonial .testimonial-caption .testimonial-top-cap img {
-    margin-bottom: 50px;
-    width: auto;
-    display: inline-block; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .experience-testimonial .testimonial-caption .testimonial-top-cap img {
-        margin-bottom: 30px; } }
-    @media (max-width: 575px) {
-      .experience-testimonial .testimonial-caption .testimonial-top-cap img {
-        margin-bottom: 30px; } }
-  .experience-testimonial .testimonial-caption .testimonial-top-cap p {
-    line-height: 1.7;
-    margin-bottom: 50px;
-    font-size: 16px;
-    color: #f7f7fd;
-    font-weight: 3000; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .experience-testimonial .testimonial-caption .testimonial-top-cap p {
-        font-size: 20px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .experience-testimonial .testimonial-caption .testimonial-top-cap p {
-        font-size: 20px;
-        padding-right: 0px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .experience-testimonial .testimonial-caption .testimonial-top-cap p {
-        font-size: 18px;
-        padding-right: 0px;
-        margin-bottom: 60px; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .experience-testimonial .testimonial-caption .testimonial-top-cap p {
-        font-size: 18px;
-        padding-right: 0px;
-        margin-bottom: 60px; } }
-    @media (max-width: 575px) {
-      .experience-testimonial .testimonial-caption .testimonial-top-cap p {
-        font-size: 15px;
-        padding-right: 0px;
-        margin-bottom: 60px; } }
-  .experience-testimonial .testimonial-caption .testimonial-founder .founder-text {
+  .experience-testimonial .testimonial-caption .testimonial-top-cap {
     margin-left: 15px;
     padding: 10px 30px;
     background-color: #FFFAFA;
     border-radius: 20px;
-    position: relative;
-    top: -55px; }
-    .experience-testimonial .testimonial-caption .testimonial-founder .founder-text span {
-      color: #206200;
-      font-size: 20px;
-      font-weight: 600;
-      color: #42cc00; }
-      @media (max-width: 575px) {
-        .experience-testimonial .testimonial-caption .testimonial-founder .founder-text span {
-          font-size: 17px; } }
-    .experience-testimonial .testimonial-caption .testimonial-founder .founder-text p {
-      color: #707b8e;
-      font-weight: 500;
-      line-height: 1.5;
-      font-size: 14px;
-      margin-bottom: 5px !important; }
-    .experience-testimonial .testimonial-caption .testimonial-founder .founder-text :after {
+    position: relative; }
+    .experience-testimonial .testimonial-caption .testimonial-top-cap :after {
       content: '';
       position: absolute;
       top: 100%;
-      left: 10%;
+      left: 20%;
       width: 0;
       height: 0;
       border-top: solid 15px #FFFAFA;
       border-left: solid 15px transparent;
       border-right: solid 15px transparent; }
+    .experience-testimonial .testimonial-caption .testimonial-top-cap img {
+      margin-bottom: 50px;
+      width: auto;
+      display: inline-block; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .experience-testimonial .testimonial-caption .testimonial-top-cap img {
+          margin-bottom: 30px; } }
+      @media (max-width: 575px) {
+        .experience-testimonial .testimonial-caption .testimonial-top-cap img {
+          margin-bottom: 30px; } }
+    .experience-testimonial .testimonial-caption .testimonial-top-cap p {
+      line-height: 1.7;
+      font-size: 16px;
+      color: #2A3439;
+      font-weight: 3000; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .experience-testimonial .testimonial-caption .testimonial-top-cap p {
+          font-size: 20px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .experience-testimonial .testimonial-caption .testimonial-top-cap p {
+          font-size: 20px;
+          padding-right: 0px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .experience-testimonial .testimonial-caption .testimonial-top-cap p {
+          font-size: 18px;
+          padding-right: 0px;
+          margin-bottom: 60px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .experience-testimonial .testimonial-caption .testimonial-top-cap p {
+          font-size: 18px;
+          padding-right: 0px;
+          margin-bottom: 60px; } }
+      @media (max-width: 575px) {
+        .experience-testimonial .testimonial-caption .testimonial-top-cap p {
+          font-size: 15px;
+          padding-right: 0px;
+          margin-bottom: 60px; } }
+  .experience-testimonial .testimonial-caption .testimonial-founder {
+    margin-top: 35px; }
+    .experience-testimonial .testimonial-caption .testimonial-founder .founder-text {
+      margin-left: 15px;
+      padding: 10px 30px;
+      background-color: #FFFAFA;
+      border-radius: 20px;
+      position: relative; }
+      .experience-testimonial .testimonial-caption .testimonial-founder .founder-text span {
+        color: #206200;
+        font-size: 20px;
+        font-weight: 600;
+        color: #42cc00; }
+        @media (max-width: 575px) {
+          .experience-testimonial .testimonial-caption .testimonial-founder .founder-text span {
+            font-size: 17px; } }
+      .experience-testimonial .testimonial-caption .testimonial-founder .founder-text p {
+        color: #707b8e;
+        font-weight: 500;
+        line-height: 1.5;
+        font-size: 14px;
+        margin-bottom: 5px !important; }
 
 .starups-area {
   display: flex;
@@ -3340,7 +3348,7 @@ nav.nav-menu-show {
   color: #206200; }
 
 .footer-area {
-  background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.9), 75%, rgba(66, 204, 0, 0.9)), url(../img/gallery/geo4.jpg); }
+  background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.9), 75%, rgba(42, 52, 57, 0.9)), url(../img/gallery/geo4.jpg); }
   .footer-area .footer-top {
     padding-bottom: 80px; }
     @media only screen and (min-width: 576px) and (max-width: 767px) {

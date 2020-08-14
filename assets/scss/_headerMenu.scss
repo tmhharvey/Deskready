@@ -33,7 +33,6 @@
                     display: inline-block;
                     position: relative;       
                     a {
-                        color: #fff;
                         display: block;
                         font-weight: 300;
                         padding: 29px 24px;
@@ -147,7 +146,7 @@ nav.nav-menu-show {
 }
 
 .main-menu.black-menu ul li a {
-  color: #fff;
+  // color: #fff;
   padding: 35px 0;
 }
 
@@ -167,8 +166,8 @@ nav.nav-menu-show {
         &.sticky-bar{
           background: linear-gradient(
             to right bottom,
-            rgba(#161616, 0.99), 90%,
-            rgba(#161616, 0.99)
+            rgba($dark-gray, 0.99),
+            rgba($dark-gray, 0.99)
           );
             &.sticky {
                 .main-menu{
@@ -220,11 +219,19 @@ nav.nav-menu-show {
                 a {
                     font-size: 15px;
                     padding: 7px 10px;
+                   
                 }
                 // Dropdown Menu button Padding None
             .slicknav_item a {
                     padding: 0 !important;
+                    color: $theme-color !important;
                 }
             }
         }
     }
+
+    .sticky-menu-color {
+      color: $theme-color2 !important;
+    }
+
+

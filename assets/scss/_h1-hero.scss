@@ -1,7 +1,7 @@
 @import 'color';
 
 .slider-height {
-    height: 95vh;
+    height: 99vh;
     margin-bottom: 5vh;
     @media #{$lg}{
       height: 90vh;
@@ -48,7 +48,7 @@
           rgba($black, 0.8)
         ),
         url(../img/hero/header1.jpeg);
-        clip-path: polygon(50% 100%, 100% 83%, 100% 0, 0 0, 0 83%);
+        clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
 
       }
       // Slider Caption
