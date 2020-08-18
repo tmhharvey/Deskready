@@ -18,7 +18,7 @@
 }
 
 .slider-height2{
-    height: 450px;
+    height: 70vh;
     background-size: cover;
     @media #{$md}{
         height: 350px;
@@ -31,9 +31,15 @@
     }
 }
 .slider-area2{
-    background-image: url(../img/hero/hero2.png);
     background-repeat:no-repeat ;
     background-size: cover;
+    background-image: linear-gradient(
+      to bottom,
+      rgba($theme-color, 0.65) 40%,
+      rgba($theme-color2, 0.8)
+    ),
+    url(../img/gallery/geo4.jpg);
+    clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
 }
 
 // Main Slider
@@ -249,5 +255,19 @@
                 font-size: 35px;
               }
         }
+        h3{
+          color: #fff;
+          font-size: 25px;
+          font-weight: 600;
+          text-transform: capitalize;
+          line-height: 1;
+          margin: 20px 0px 50px 0px;
+          @media #{$sm}{
+              font-size: 50px;
+            }
+          @media #{$xs}{
+              font-size: 35px;
+            }
+      }
     }
 }
