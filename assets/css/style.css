@@ -3597,6 +3597,113 @@ nav.nav-menu-show {
     .slider-area3 .hero-cap h3 {
       font-size: 35px; } }
 
+/*-------------   Color Variable  --------------*/
+.white-bg {
+  background: #ffffff; }
+
+.gray-bg {
+  background: #f5f5f5; }
+
+/*-------------Color include--------------*/
+/*-- Background color---*/
+.gray-bg {
+  background: #f7f7fd; }
+
+.white-bg {
+  background: #ffffff; }
+
+.black-bg {
+  background: #16161a; }
+
+.theme-bg {
+  background: #206200; }
+
+.brand-bg {
+  background: #f1f4fa; }
+
+.testimonial-bg {
+  background: #f9fafc; }
+
+/*--- color------*/
+.white-color {
+  color: #ffffff; }
+
+.black-color {
+  color: #16161a; }
+
+.theme-color {
+  color: #206200; }
+
+.hero-employer-height {
+  height: 50vh;
+  background-size: cover; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-employer-height {
+      height: 350px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-employer-height {
+      height: 260px; } }
+  @media (max-width: 575px) {
+    .hero-employer-height {
+      height: 260px; } }
+
+.hero-area-employer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
+
+.header-transparent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9; }
+
+.hero-area-employer .hero-cap h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1; }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-area-employer .hero-cap h2 {
+      font-size: 50px; } }
+  @media (max-width: 575px) {
+    .hero-area-employer .hero-cap h2 {
+      font-size: 35px; } }
+
+.hero-area-employer .hero-cap h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1;
+  margin: 20px 0px 50px 0px; }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-area-employer .hero-cap h3 {
+      font-size: 50px; } }
+  @media (max-width: 575px) {
+    .hero-area-employer .hero-cap h3 {
+      font-size: 35px; } }
+
+.training-area h3 {
+  font-size: 30px;
+  display: block;
+  color: #1d2434;
+  font-weight: 800;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .training-area h3 {
+      font-size: 41px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .training-area h3 {
+      font-size: 31px;
+      text-align: center; } }
+  @media (max-width: 575px) {
+    .training-area h3 {
+      text-align: left;
+      font-size: 27px; } }
+
 .training-card {
   background-image: linear-gradient(to right bottom, rgba(255, 250, 250, 0.9), 70%, rgba(255, 250, 250, 0.9));
   padding: 20px;
@@ -3606,6 +3713,11 @@ nav.nav-menu-show {
     transform: translateY(-8px);
     box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
     transition: all 0.6s ease-out 0s; }
+  .training-card .training-caption h1 {
+    color: #42cc00;
+    font-size: 65px;
+    text-align: center;
+    margin: 10px 0px; }
   .training-card .training-caption h3 {
     color: #2A3439;
     font-size: 25px;
@@ -3642,19 +3754,75 @@ nav.nav-menu-show {
       .card-large span {
         font-size: 14px;
         padding-left: 60px; } }
-    .card-large span::before {
-      position: absolute;
-      content: "\2713";
-      background: #42cc00;
-      color: #FFFAFA;
-      border-radius: 50%;
-      padding: 8px 14px;
-      left: -55px;
-      top: 15px;
-      transform: translateY(-50%); }
-      @media (max-width: 575px) {
-        .card-large span::before {
-          left: 0; } }
+  .card-large .checkMark::before {
+    position: absolute;
+    content: "\2713";
+    background: #42cc00;
+    color: #FFFAFA;
+    border-radius: 50%;
+    padding: 8px 14px;
+    left: -55px;
+    top: 15px;
+    transform: translateY(-50%); }
+    @media (max-width: 575px) {
+      .card-large .checkMark::before {
+        left: 0; } }
+  .card-large .bullets--1::before {
+    position: absolute;
+    content: "\0031";
+    background: #42cc00;
+    color: #FFFAFA;
+    border-radius: 50%;
+    padding: 1px 15px;
+    font-size: 25px;
+    left: -55px;
+    top: 15px;
+    transform: translateY(-50%); }
+    @media (max-width: 575px) {
+      .card-large .bullets--1::before {
+        left: 0; } }
+  .card-large .bullets--2::before {
+    position: absolute;
+    content: "\0032";
+    background: #42cc00;
+    color: #FFFAFA;
+    border-radius: 50%;
+    padding: 1px 12px;
+    font-size: 25px;
+    left: -55px;
+    top: 15px;
+    transform: translateY(-50%); }
+    @media (max-width: 575px) {
+      .card-large .bullets--2::before {
+        left: 0; } }
+  .card-large .bullets--3::before {
+    position: absolute;
+    content: "\0033";
+    background: #42cc00;
+    color: #FFFAFA;
+    border-radius: 50%;
+    padding: 1px 12px;
+    font-size: 25px;
+    left: -55px;
+    top: 15px;
+    transform: translateY(-50%); }
+    @media (max-width: 575px) {
+      .card-large .bullets--3::before {
+        left: 0; } }
+  .card-large .bullets--4::before {
+    position: absolute;
+    content: "\0034";
+    background: #42cc00;
+    color: #FFFAFA;
+    border-radius: 50%;
+    padding: 1px 12px;
+    font-size: 25px;
+    left: -55px;
+    top: 15px;
+    transform: translateY(-50%); }
+    @media (max-width: 575px) {
+      .card-large .bullets--4::before {
+        left: 0; } }
   .card-large .card-bg {
     background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
     position: absolute;
@@ -3754,6 +3922,98 @@ nav.nav-menu-show {
 
 .single-options:hover .options-img img {
   transform: scale(1.1); }
+
+.sell-area {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
+  .sell-area h3 {
+    font-size: 30px;
+    display: block;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .sell-area h3 {
+        font-size: 41px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .sell-area h3 {
+        font-size: 31px;
+        text-align: center; } }
+    @media (max-width: 575px) {
+      .sell-area h3 {
+        text-align: left;
+        font-size: 27px; } }
+  .sell-area p {
+    color: #FFFAFA;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0px;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 500px; }
+
+.sell-card {
+  padding: 20px; }
+  .sell-card:hover {
+    transform: translateY(-8px);
+    box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
+    transition: all 0.6s ease-out 0s; }
+  .sell-card .sell-caption h1 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: left;
+    margin: 10px 0px; }
+  .sell-card .sell-caption h3 {
+    color: #FFFAFA;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px;
+    font-weight: none !important;
+    text-transform: none !important; }
+  .sell-card .sell-caption p {
+    color: #FFFAFA;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px; }
+  .sell-card .sell-caption__iconContainer {
+    text-align: center;
+    font-size: 5rem;
+    color: #FFFAFA; }
+    .sell-card .sell-caption__iconContainer__icon {
+      border-radius: 50%;
+      background-color: #42cc00;
+      padding: 20px; }
+
+.single-sell:hover .sell-img img {
+  transform: scale(1.1); }
+
+.sell-icon-container {
+  width: 100%;
+  margin-top: 20px; }
+
+.sell-icon {
+  display: inline-block;
+  background-color: white;
+  padding: 15px 20px 10px 20px;
+  border-radius: 50%;
+  font-size: 30px; }
+  .sell-icon i {
+    color: #fff;
+    display: block;
+    margin-bottom: 42px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+
+.pw {
+  color: #FFFAFA;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0px; }
 
 /*-------------   Color Variable  --------------*/
 .white-bg {

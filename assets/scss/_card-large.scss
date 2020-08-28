@@ -17,22 +17,101 @@
 		@media #{$xs}{
 			font-size: 14px;
 			padding-left: 60px;
-		}
-		&::before{
-			position: absolute;
-		  content: "\2713";
+    }
+  }
+
+  .checkMark {
+    &::before{
+      position: absolute;
+      content: "\2713";
       background: $theme-color2;
       color: $off-white;
       border-radius: 50%;
       padding: 8px 14px;
-			left: -55px;
-			top: 15px;
+      left: -55px;
+      top: 15px;
       transform: translateY(-50%);
     
-			@media #{$xs}{
-				left: 0;
-			}
-		}
+      @media #{$xs}{
+        left: 0;
+      }
+    }
+  }
+
+  .bullets {
+  
+    &--1 {
+      &::before{
+        position: absolute;
+        content: "\0031";
+        background: $theme-color2;
+        color: $off-white;
+        border-radius: 50%;
+        padding: 1px 15px;
+        font-size: 25px;
+        left: -55px;
+        top: 15px;
+        transform: translateY(-50%);
+      
+        @media #{$xs}{
+          left: 0;
+        }
+      }
+    }
+    &--2 {
+      &::before{
+        position: absolute;
+        content: "\0032";
+        background: $theme-color2;
+        color: $off-white;
+        border-radius: 50%;
+       padding: 1px 12px;
+        font-size: 25px;
+        left: -55px;
+        top: 15px;
+        transform: translateY(-50%);
+      
+        @media #{$xs}{
+          left: 0;
+        }
+      }
+    }
+    &--3 {
+      &::before{
+        position: absolute;
+        content: "\0033";
+        background: $theme-color2;
+        color: $off-white;
+        border-radius: 50%;
+       padding: 1px 12px;
+        font-size: 25px;
+        left: -55px;
+        top: 15px;
+        transform: translateY(-50%);
+      
+        @media #{$xs}{
+          left: 0;
+        }
+      }
+    }
+    &--4 {
+      &::before{
+        position: absolute;
+        content: "\0034";
+        background: $theme-color2;
+        color: $off-white;
+        border-radius: 50%;
+      padding: 1px 12px;
+        font-size: 25px;
+        left: -55px;
+        top: 15px;
+        transform: translateY(-50%);
+      
+        @media #{$xs}{
+          left: 0;
+        }
+      }
+    }
   }
   
   .card-bg{
@@ -112,16 +191,16 @@
 }
 // hover
 .card-caption:hover {
-color: $theme-color;
-box-shadow: 8px 8px 15px;
-transform: translateY(-15px);
-background-color: #fff;
-border: 1px solid $theme-color2;
-  .card-icon {
-      i{
-        
-      }
-  }
+  color: $theme-color;
+  box-shadow: 8px 8px 15px;
+  transform: translateY(-15px);
+  background-color: #fff;
+  border: 1px solid $theme-color2;
+    .card-icon {
+        i{
+          
+        }
+    }
 }
 
 

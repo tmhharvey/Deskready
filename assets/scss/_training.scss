@@ -1,3 +1,24 @@
+.training-area {
+  h3 {
+		font-size: 30px;
+		display: block;
+		color: $heading-color;
+		font-weight: 800;
+		text-transform: uppercase;
+		@media #{$lg}{
+			font-size: 41px;
+		}
+		@media #{$sm}{
+			font-size: 31px;
+			text-align: center;
+		}
+		@media #{$xs}{
+			text-align: left;
+			font-size: 27px;
+		}
+  }
+}
+
 .training-card{
   background-image: linear-gradient(
     to right bottom,
@@ -24,7 +45,12 @@
 
     .training-caption{
   
-
+        & h1{
+          color: $theme-color2;
+          font-size: 65px;
+          text-align: center;
+          margin: 10px 0px;
+        }
         & h3{
           color: $dark-gray;
           font-size: 25px;
@@ -55,3 +81,4 @@
 .single-training:hover .training-img img {
 	transform:scale(1.1);
 }
+
