@@ -40,6 +40,11 @@
     ),
     url(../img/gallery/geo4.jpg);
     clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
+
+    &__btn {
+      position: relative;
+      top: 7rem;
+    }
 }
 
 .slider-area3 {

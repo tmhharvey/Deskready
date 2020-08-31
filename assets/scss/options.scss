@@ -8,6 +8,7 @@
         rgba($theme-color2, 0.9), 70%,
         rgba($theme-color, 0.9)
       );
+      cursor: pointer;
   }
 
   &:hover .options-caption .options-caption__iconContainer .options-caption__iconContainer__icon {
