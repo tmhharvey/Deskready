@@ -3949,7 +3949,7 @@ nav.nav-menu-show {
   background-size: cover;
   background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
   .sell-area h3 {
-    font-size: 30px;
+    font-size: 35px;
     display: block;
     color: #ffffff;
     font-weight: 800;
@@ -3980,7 +3980,6 @@ nav.nav-menu-show {
   padding: 20px; }
   .sell-card:hover {
     transform: translateY(-8px);
-    box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
     transition: all 0.6s ease-out 0s; }
   .sell-card .sell-caption h1 {
     color: #ffffff;
