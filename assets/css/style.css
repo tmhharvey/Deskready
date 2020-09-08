@@ -4035,6 +4035,17 @@ nav.nav-menu-show {
   text-align: center;
   margin: 10px 0px; }
 
+.faq__card {
+  margin-bottom: 25px; }
+  .faq__card__answer {
+    border: 1px solid rgba(0, 0, 0, 0.125); }
+  .faq__card__button {
+    min-width: 450px;
+    text-align: left !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px; }
+
 /*-------------   Color Variable  --------------*/
 .white-bg {
   background: #ffffff; }
