@@ -176,6 +176,10 @@ body {
   font-style: normal;
   font-size: 16px; }
 
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
 .container-fluid {
   padding: 0px; }
 
@@ -2340,6 +2344,29 @@ nav.nav-menu-show {
   background-size: cover;
   background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
 
+.slider-height4 {
+  height: 40vh;
+  background-size: cover; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-height4 {
+      height: 350px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-height4 {
+      height: 260px; } }
+  @media (max-width: 575px) {
+    .slider-height4 {
+      height: 260px; } }
+
+.slider-area4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+  clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
+  color: #ffffff !important; }
+  .slider-area4__btn {
+    position: relative;
+    top: 7rem; }
+
 .slider-area .slide-full {
   background-position: center center;
   background-size: cover;
@@ -2515,7 +2542,7 @@ nav.nav-menu-show {
   font-weight: 600;
   text-transform: capitalize;
   line-height: 1;
-  margin: 20px 0px 50px 0px; }
+  margin: 20px 0px 5px 0px; }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area2 .hero-cap h3 {
       font-size: 50px; } }
@@ -2523,8 +2550,35 @@ nav.nav-menu-show {
     .slider-area2 .hero-cap h3 {
       font-size: 35px; } }
 
+.slider-area4 .hero-cap h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1; }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-area4 .hero-cap h2 {
+      font-size: 50px; } }
+  @media (max-width: 575px) {
+    .slider-area4 .hero-cap h2 {
+      font-size: 35px; } }
+
+.slider-area4 .hero-cap h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1;
+  margin: 20px 0px 5px 0px; }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-area4 .hero-cap h3 {
+      font-size: 50px; } }
+  @media (max-width: 575px) {
+    .slider-area4 .hero-cap h3 {
+      font-size: 35px; } }
+
 .about-area {
-  padding: 75px 0 75px 0; }
+  padding: 20px 0 20px 0; }
   .about-area__subtext {
     font-size: 16px;
     color: #64676c;
@@ -3686,7 +3740,7 @@ nav.nav-menu-show {
 .hero-area-employer {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
+  background-image: linear-gradient(to bottom, rgba(42, 52, 57, 0.9) 40%, rgba(42, 52, 57, 0.95)), url(../img/gallery/geo4.jpg); }
 
 .header-transparent {
   position: absolute;
@@ -3743,22 +3797,75 @@ nav.nav-menu-show {
 .training-area__background-geoWhite {
   margin-top: -50px;
   padding-bottom: 150px;
-  background-image: linear-gradient(to bottom, rgba(247, 247, 253, 0.8) 40%, rgba(247, 247, 253, 0.9)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to bottom, rgba(247, 247, 253, 0.8), rgba(247, 247, 253, 0.9)), url(../img/gallery/geo4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.training-area__bg-1 {
+  margin-top: -50px;
+  padding-bottom: 150px;
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 253, 0.95) 60%, rgba(247, 247, 253, 0.9)), url(../img/hero/header1.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
 .training-card {
-  background-image: linear-gradient(to right bottom, rgba(255, 250, 250, 0.9), 70%, rgba(255, 250, 250, 0.9));
-  padding: 10px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   box-shadow: rgba(48, 55, 64, 0.15) 2px 2px 3px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 253, 0.85), 70%, rgba(247, 247, 253, 0.85)); }
   .training-card:hover {
     transform: translateY(-8px);
     box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
-    transition: all 0.6s ease-out 0s; }
+    transition: all 0.6s ease-out 0s;
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)); }
+  .training-card--bg1 {
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/elements/a2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top; }
+    .training-card--bg1:hover {
+      transform: translateY(-8px);
+      box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
+      transition: all 0.6s ease-out 0s;
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/elements/a2.jpg); }
+  .training-card--bg2 {
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/gallery/happy-sales.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .training-card--bg2:hover {
+      transform: translateY(-8px);
+      box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
+      transition: all 0.6s ease-out 0s;
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/gallery/happy-sales.png); }
+  .training-card--bg3 {
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/elements/g8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .training-card--bg3:hover {
+      transform: translateY(-8px);
+      box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
+      transition: all 0.6s ease-out 0s;
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/elements/g8.jpg); }
+  .training-card--bg4 {
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/gallery/happy-sales-graphic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; }
+    .training-card--bg4:hover {
+      transform: translateY(-8px);
+      box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
+      transition: all 0.6s ease-out 0s;
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/gallery/happy-sales-graphic.jpg); }
   .training-card .training-caption h1 {
     color: #42cc00;
     font-size: 65px;
+    text-align: center;
+    margin: 10px 0px; }
+  .training-card .training-caption h2 {
+    color: #42cc00;
+    font-size: 35px;
     text-align: center;
     margin: 10px 0px; }
   .training-card .training-caption h3 {
@@ -3767,7 +3874,8 @@ nav.nav-menu-show {
     text-align: center;
     margin: 10px 0px; }
   .training-card .training-caption p {
-    text-align: center; }
+    text-align: center;
+    color: #ffffff; }
   .training-card .training-caption__iconContainer {
     text-align: center;
     font-size: 5rem;
@@ -3794,6 +3902,9 @@ nav.nav-menu-show {
 
 .single-training:hover .training-img img {
   transform: scale(1.1); }
+
+.training-card:hover h3 {
+  color: #ffffff; }
 
 .card-large {
   position: relative;
@@ -3890,12 +4001,18 @@ nav.nav-menu-show {
     right: 0;
     content: '';
     height: 700px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
     .card-large .card-bg__graphic {
       background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/happy-sales.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom; }
+    .card-large .card-bg--large {
+      height: 1000px; }
+    .card-large .card-bg--extraLarge {
+      height: 110%;
+      margin-bottom: 150px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .card-large {
       padding-top: 100px;
@@ -3946,6 +4063,46 @@ nav.nav-menu-show {
     .card-large .card-caption .card-cap p {
       color: #717081;
       font-size: 15px; }
+  .card-large__image-text-panels {
+    margin-bottom: 30px; }
+    .card-large__image-text-panels__caption-1 {
+      background-color: #2A3439;
+      border-radius: 5px;
+      margin-top: 20px;
+      margin-left: -20px;
+      padding: 15px; }
+      .card-large__image-text-panels__caption-1 h2 {
+        font-size: 35px;
+        color: #FFFAFA; }
+      .card-large__image-text-panels__caption-1__subtext {
+        color: #FFFAFA; }
+    .card-large__image-text-panels__caption-2 {
+      background-color: #2A3439;
+      border-radius: 5px;
+      margin-top: 20px;
+      margin-right: -30px;
+      padding: 15px;
+      z-index: 100;
+      position: relative; }
+      .card-large__image-text-panels__caption-2 h2 {
+        font-size: 35px;
+        color: #FFFAFA; }
+      .card-large__image-text-panels__caption-2__subtext {
+        color: #FFFAFA; }
+  .card-large__imageContainer {
+    position: relative;
+    height: 350px;
+    width: 100%; }
+    .card-large__imageContainer__image-1 {
+      height: 100%;
+      width: 120%;
+      position: relative;
+      right: -20%; }
+    .card-large__imageContainer__image-2 {
+      height: 100%;
+      width: 120%;
+      margin-left: -20%;
+      z-index: -10; }
 
 .card-caption:hover {
   color: #206200;
@@ -5171,7 +5328,7 @@ nav.nav-menu-show {
       display: block; }
 
 .contact-section {
-  padding: 130px 0 100px; }
+  padding: 130px 0 50px; }
   @media (max-width: 991px) {
     .contact-section {
       padding: 70px 0 40px; } }

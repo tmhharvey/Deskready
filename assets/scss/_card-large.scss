@@ -129,6 +129,7 @@
       content: '';
       height: 700px;
       background-repeat: no-repeat;
+      background-size: cover;
 
       &__graphic {
         background-image: linear-gradient(
@@ -141,6 +142,14 @@
         background-size: cover;
         background-position: bottom;
    
+      }
+
+      &--large {
+        height: 1000px;
+      }
+      &--extraLarge {
+        height: 110%;
+        margin-bottom: 150px;
       }
  
   }
@@ -205,6 +214,66 @@
               font-size: 15px;
           }
       }
+  }
+
+  &__image-text-panels {
+    margin-bottom: 30px;
+
+
+    &__caption-1 {
+      background-color: $dark-gray;
+      border-radius: 5px;
+      margin-top: 20px;
+      margin-left: -20px;
+      padding: 15px;
+
+      & h2 {
+        font-size: 35px;
+        color: $off-white;
+      }
+      &__subtext {
+        color: $off-white;
+      }    
+     
+    }
+    
+    &__caption-2 {
+      background-color: $dark-gray;
+      border-radius: 5px;
+      margin-top: 20px;
+      margin-right: -30px;
+      padding: 15px;
+      z-index: 100;
+      position: relative;
+
+      & h2 {
+        font-size: 35px;
+        color: $off-white;
+      }
+      &__subtext {
+        color: $off-white;
+      }    
+     
+    }
+  }
+
+  &__imageContainer {
+    position: relative;
+    height: 350px;
+    width: 100%;
+
+    &__image-1 {
+      height: 100%;
+      width: 120%;
+      position: relative;
+      right: -20%;
+    }
+    &__image-2 {
+      height: 100%;
+      width: 120%;
+      margin-left: -20%;
+      z-index: -10;
+    }
   }
 }
 // hover
