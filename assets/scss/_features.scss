@@ -9,6 +9,8 @@
     url("../img/gallery/geo4.jpg");
   background-size: cover;
   transform: skewY(-7deg);
+  overflow: hidden;
+  
   & > * {
     transform: skewY(7deg);
   }

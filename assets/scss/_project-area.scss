@@ -16,6 +16,13 @@
    @media #{$tablet_device} {
        padding: 100px 0;
    }
+
+   &__arrow {
+    clip-path: polygon(20% 0%, 20% 20%, 100% 20%, 100% 80%, 20% 80%, 20% 100%, 0% 50%);
+    padding: 125px 75px;
+    margin-bottom: 100px;
+   }
+   
    .project_info{
  
        h3{

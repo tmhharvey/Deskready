@@ -1,5 +1,22 @@
 .about-area{
-  padding: 75px 0 150px 0;
+  padding: 75px 0 75px 0;
+
+  &__subtext {
+    font-size: 16px;
+    color: #64676c;
+    line-height: 1.6;
+    margin-bottom: 0px;
+    padding-right: 50px;
+    @media #{$lg}{
+        padding-right: 20px;
+    }
+    @media #{$sm}{
+        padding-right: 0px;
+    }
+    @media #{$xs}{
+        padding-right: 0px;
+    }
+  }
     // left content
     .about-caption{
         @media #{$xs}{
@@ -21,6 +38,7 @@
                 padding-right: 0px;
             }
         }
+      
     }
     // Right img
     .about-img{
