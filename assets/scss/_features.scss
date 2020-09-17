@@ -24,9 +24,11 @@
     letter-spacing: 1px;
   }
 
+
   @media #{$sm}{
     padding: 8rem 0;
   }
+  
 }
 
 .feature-box {
@@ -39,8 +41,13 @@
   box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
   margin: 0 1.5rem;
 
-
+  @media #{$md}{
+    margin-bottom: 20px;
+   }
   @media #{$sm}{
+    margin-bottom: 4rem;
+  }
+  @media #{$xs}{
     margin-bottom: 4rem;
   }
 

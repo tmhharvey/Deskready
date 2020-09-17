@@ -24,10 +24,10 @@
         height: 350px;
     }
     @media #{$sm}{
-        height: 260px;
+      height: 75vh;
     }
     @media #{$xs}{
-        height: 260px;
+      height: 75vh;
     }
 }
 .slider-area2 {
@@ -44,8 +44,49 @@
     &__btn {
       position: relative;
       top: 7rem;
+      @media #{$md}{
+        top: 20px;
+      }
     }
+
+    &__hero-cap2{
+      h2{
+          color: #fff;
+          font-size: 50px;
+          font-weight: 800;
+          text-transform: capitalize;
+          line-height: 1;
+          @media #{$md}{
+            font-size: 35px;
+          };
+          @media #{$sm}{
+            font-size: 30px;
+          };
+          @media #{$xs}{
+            font-size: 30px;
+          };
+      }
+      h3{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 1;
+        margin: 20px 0px 5px 0px;
+        @media #{$md}{
+          font-size: 20px;
+        }
+        @media #{$sm}{
+          font-size: 16px;
+        };
+        @media #{$xs}{
+          font-size: 16px;
+        };
+    }
+  }
 }
+
+
 
 .slider-area3 {
   background-repeat:no-repeat ;
@@ -286,41 +327,9 @@
 	z-index: 9;
 }
 
-// Another Hero Page
-.slider-area2{
-    .hero-cap{
-        h2{
-            color: #fff;
-            font-size: 50px;
-            font-weight: 800;
-            text-transform: capitalize;
-            line-height: 1;
-            @media #{$sm}{
-                font-size: 50px;
-              }
-            @media #{$xs}{
-                font-size: 35px;
-              }
-        }
-        h3{
-          color: #fff;
-          font-size: 25px;
-          font-weight: 600;
-          text-transform: capitalize;
-          line-height: 1;
-          margin: 20px 0px 5px 0px;
-          @media #{$sm}{
-              font-size: 50px;
-            }
-          @media #{$xs}{
-              font-size: 35px;
-            }
-      }
-    }
-}
 
 .slider-area4{
-  .hero-cap{
+  &__hero-cap4{
       h2{
           color: #fff;
           font-size: 50px;

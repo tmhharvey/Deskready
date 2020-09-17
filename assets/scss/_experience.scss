@@ -20,6 +20,7 @@
     @media #{$xs}{
         margin-top: 100px;
     }
+  
     .caption-overlay{
         position: absolute;
         content: ""; 
@@ -48,9 +49,14 @@
         position: relative;
         z-index: 1;
         @media #{$xs}{
-          padding: 100px 20px;
-          margin-top: 10px;
-      }
+          padding: 30px 20px;
+          margin-top: 50px;
+        }
+        @media #{$tablet_device} {
+          padding: 50px 30px;
+          margin-top: 70px;
+        } 
+
         h2 {
             color: black;
             font-size: 50px;
@@ -74,9 +80,17 @@
 
 .experience-testimonial {
   padding: 200px 20px;
+  @media #{$xs}{
+    padding: 30px 20px;
+  }
+  @media #{$tablet_device} {
+   padding-top: 30px;
+   padding-bottom: 30px;
+  } 
   .testimonial-caption{
   
   
+
     .testimonial-top-cap{
       margin-left: 15px;
       padding: 10px 30px;
@@ -130,8 +144,11 @@
             @media #{$xs}{
                 font-size: 15px;
                 padding-right: 0px;
-                margin-bottom: 60px;
+                margin-bottom: 10px;
             }
+            @media #{$tablet_device} {
+              margin-bottom: 10px;
+             } 
         }
     }
     .testimonial-founder{
