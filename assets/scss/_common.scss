@@ -358,7 +358,8 @@ hr {
 		transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
 		// 
 		transform: scaleX(0);
-		border-radius: 0px;
+    border-radius: 0px;
+    
 	}
 }
 .btn:hover::before {
@@ -1009,6 +1010,24 @@ hr {
 			font-size: 27px;
 		}
   }
+
+  h4 {
+		font-size: 18px;
+		display: block;
+    color: $gray2;
+		font-weight: 700;
+		@media #{$lg}{
+			font-size: 41px;
+		}
+		@media #{$sm}{
+			font-size: 31px;
+			text-align: center;
+		}
+		@media #{$xs}{
+			text-align: left;
+			font-size: 27px;
+		}
+  }
   
   &__pGray {
     color: $gray2 !important;
@@ -1018,7 +1037,8 @@ hr {
 		display: inline-block;
 		position: relative;
 		letter-spacing: 0.05em;
-	}
+  }
+  
 }
 
 .section-tittle2{
@@ -1064,4 +1084,9 @@ hr {
     background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
+}
+
+
+.white {
+  color: #fff !important
 }

@@ -55,6 +55,10 @@
     rgba($gray, 0.85)
   );
 
+  &--large {
+    min-height: 500px;
+  }
+
   &:hover  {
     transform: translateY(-8px);
     box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;

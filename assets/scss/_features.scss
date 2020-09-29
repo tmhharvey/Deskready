@@ -40,6 +40,7 @@
   transition: all 0.2s;
   box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
   margin: 0 1.5rem;
+  min-height: 400px;
 
   @media #{$md}{
     margin-bottom: 20px;

@@ -164,7 +164,7 @@
             margin-bottom: 15px;
             position: relative;
             font-family: $font_1;
-            width: 65%;
+            width: 75%;
             &::before{
                 position: absolute;
                 content: "";
@@ -208,7 +208,7 @@
             }
         }
         p{
-            font-size: 16px;
+            font-size: 18px;
             color: #fff;
             font-family: $font_2;
             margin-bottom: 64px;
@@ -329,7 +329,7 @@
 
 
 .slider-area4{
-  &__hero-cap4{
+  .hero-cap4{
       h2{
           color: #fff;
           font-size: 50px;
