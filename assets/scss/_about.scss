@@ -1,9 +1,21 @@
 .about-area{
   padding: 20px 0 20px 0;
 
+  &__slant {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+      to bottom,
+      rgba($dark-gray, 0.9) 40%,
+      rgba($dark-gray, 0.95)
+    ),
+    url(../img/gallery/geo4.jpg);
+    clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
+  }
+
   &__subtext {
     font-size: 16px;
-    color: #64676c;
+    color: #fff;
     line-height: 1.6;
     margin-bottom: 0px;
     padding-right: 50px;
@@ -92,6 +104,18 @@
         margin-bottom: 35px;
     }
 	
+}
+
+.form-control {
+  color: #fff !important;
+}
+
+.nice-select {
+  color: $off-white;
+}
+
+.nice-select .list {
+  color: $dark-gray;
 }
 
 

@@ -17,8 +17,17 @@
        padding: 100px 0;
    }
 
+   &__gray {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($dark-gray, 0.8),
+      rgba($dark-gray, 0.8)
+    ),
+    url(../img/gallery/geo4.jpg);
+   }
+
    &__arrow {
-    clip-path: polygon(20% 0%, 20% 20%, 100% 20%, 100% 80%, 20% 80%, 20% 100%, 0% 50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
     padding: 125px 75px;
     margin-bottom: 100px;
    }

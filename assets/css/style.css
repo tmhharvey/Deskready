@@ -2621,9 +2621,14 @@ nav.nav-menu-show {
 
 .about-area {
   padding: 20px 0 20px 0; }
+  .about-area__slant {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(42, 52, 57, 0.9) 40%, rgba(42, 52, 57, 0.95)), url(../img/gallery/geo4.jpg);
+    clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%); }
   .about-area__subtext {
     font-size: 16px;
-    color: #64676c;
+    color: #fff;
     line-height: 1.6;
     margin-bottom: 0px;
     padding-right: 50px; }
@@ -2694,6 +2699,15 @@ nav.nav-menu-show {
 @media (max-width: 575px) {
   .about-caption {
     margin-bottom: 35px; } }
+
+.form-control {
+  color: #fff !important; }
+
+.nice-select {
+  color: #FFFAFA; }
+
+.nice-select .list {
+  color: #2A3439; }
 
 .service-area {
   position: relative;
@@ -2835,7 +2849,7 @@ nav.nav-menu-show {
     .service_area .single_service .service_hover {
       text-align: center;
       padding: 104px 0 94px 0;
-      background: rgba(0, 0, 0, 0.3);
+      background: rgba(0, 0, 0, 0);
       -webkit-transition: 0.5s;
       -moz-transition: 0.5s;
       -o-transition: 0.5s;
@@ -2855,7 +2869,7 @@ nav.nav-menu-show {
         display: table;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 25%, rgba(42, 52, 57, 0.95));
+        background-image: linear-gradient(to right bottom, #2a3439, 25%, #2a3439);
         -webkit-transform: translateY(40%);
         -moz-transform: translateY(40%);
         -ms-transform: translateY(40%);
@@ -2958,8 +2972,10 @@ nav.nav-menu-show {
   @media (min-width: 768px) and (max-width: 991px) {
     .project_area {
       padding: 100px 0; } }
+  .project_area__gray {
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.8), rgba(42, 52, 57, 0.8)), url(../img/gallery/geo4.jpg); }
   .project_area__arrow {
-    clip-path: polygon(20% 0%, 20% 20%, 100% 20%, 100% 80%, 20% 80%, 20% 100%, 0% 50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
     padding: 125px 75px;
     margin-bottom: 100px; }
   .project_area .project_info h3 {
@@ -3905,7 +3921,7 @@ nav.nav-menu-show {
     transform: translateY(-8px);
     box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
     transition: all 0.6s ease-out 0s;
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)); }
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)); }
   .training-card--bg1 {
     background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/elements/a2.jpg);
     background-size: cover;
@@ -3915,7 +3931,7 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/elements/a2.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/elements/a2.jpg); }
   .training-card--bg2 {
     background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/gallery/happy-sales.png);
     background-size: cover;
@@ -3925,7 +3941,7 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/gallery/happy-sales.png); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/gallery/happy-sales.png); }
   .training-card--bg3 {
     background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/elements/g8.jpg);
     background-size: cover;
@@ -3935,7 +3951,7 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/elements/g8.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/elements/g8.jpg); }
   .training-card--bg4 {
     background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/gallery/happy-sales-graphic.jpg);
     background-size: cover;
@@ -3945,7 +3961,7 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.95), 70%, rgba(42, 52, 57, 0.95)), url(../img/gallery/happy-sales-graphic.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/gallery/happy-sales-graphic.jpg); }
   .training-card .training-caption h1 {
     color: #42cc00;
     font-size: 65px;
@@ -4092,7 +4108,7 @@ nav.nav-menu-show {
     background-repeat: no-repeat;
     background-size: cover; }
     .card-large .card-bg__graphic {
-      background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/happy-sales.png);
+      background-image: url(../img/gallery/happy-sales.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom; }
@@ -4114,7 +4130,7 @@ nav.nav-menu-show {
       padding-top: 70px;
       padding-bottom: 70px; } }
   .card-large .card-caption {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+    background: linear-gradient(to bottom, white, white);
     box-shadow: 4px 4px 8px;
     color: #206200;
     border-radius: 7px;
@@ -4200,7 +4216,7 @@ nav.nav-menu-show {
   border: 1px solid #42cc00; }
 
 .options-area {
-  margin: 0px 20px 45px 20px;
+  margin: 0px 20px 100px 20px;
   padding-bottom: 15px !important; }
   .options-area .options-card {
     padding: 20px;
