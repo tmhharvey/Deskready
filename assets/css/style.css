@@ -2439,7 +2439,7 @@ nav.nav-menu-show {
 .slider-area .slide-full {
   background-position: center center;
   background-size: cover;
-  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.8), rgba(22, 22, 26, 0.8)), url(../img/hero/header1.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.8), rgba(22, 22, 26, 0.8)), url(../img/FoldedHands.jpg);
   clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%); }
 
 .slider-area .slide-full-content {
@@ -2665,7 +2665,7 @@ nav.nav-menu-show {
       position: relative;
       z-index: 1; }
       .about-area .about-img .about-font-img img {
-        max-width: 28vw; }
+        max-height: 500px; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .about-area .about-img .about-font-img img {
             width: 90%; } }
@@ -2821,13 +2821,13 @@ nav.nav-menu-show {
   color: #206200; }
 
 .service_bg_1 {
-  background-image: url(../img/about/1.png); }
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/males-computers.jpg); }
 
 .service_bg_2 {
-  background-image: url(../img/about/2.png); }
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/1-on-1.jpg); }
 
 .service_bg_3 {
-  background-image: url(../img/about/3.png); }
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/computer-lab.jpg); }
 
 .service_area {
   padding-top: 120px;
@@ -3923,7 +3923,7 @@ nav.nav-menu-show {
     transition: all 0.6s ease-out 0s;
     background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)); }
   .training-card--bg1 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/elements/a2.jpg);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/group-lessons.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top; }
@@ -3931,9 +3931,9 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/elements/a2.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/group-lessons.jpg); }
   .training-card--bg2 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/gallery/happy-sales.png);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/1-on-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -3941,9 +3941,9 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/gallery/happy-sales.png); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/1-on-1.jpg); }
   .training-card--bg3 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/elements/g8.jpg);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/sales-male.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -3951,9 +3951,9 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/elements/g8.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/sales-male.jpg); }
   .training-card--bg4 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/gallery/happy-sales-graphic.jpg);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/briefcase.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom; }
@@ -3961,7 +3961,7 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/gallery/happy-sales-graphic.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/briefcase.jpg); }
   .training-card .training-caption h1 {
     color: #42cc00;
     font-size: 65px;
@@ -4108,10 +4108,10 @@ nav.nav-menu-show {
     background-repeat: no-repeat;
     background-size: cover; }
     .card-large .card-bg__graphic {
-      background-image: url(../img/gallery/happy-sales.png);
+      background-image: url(../img/group-desk.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: bottom; }
+      background-position: center; }
     .card-large .card-bg--large {
       height: 1000px; }
     .card-large .card-bg--extraLarge {

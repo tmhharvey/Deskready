@@ -1,11 +1,30 @@
 @import 'color';
 
 .service_bg_1{
-  background-image: url(../img/about/1.png);
-}.service_bg_2{
-  background-image: url(../img/about/2.png);
-}.service_bg_3{
-  background-image: url(../img/about/3.png);
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($dark-gray, 0.45), 25%,
+    rgba($dark-gray, 0.55)
+  ),
+  url(../img/males-computers.jpg);
+}
+
+.service_bg_2{
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($dark-gray, 0.45), 25%,
+    rgba($dark-gray, 0.55)
+  ),
+  url(../img/1-on-1.jpg);
+}
+
+.service_bg_3{
+  background-image:  linear-gradient(
+    to right bottom,
+    rgba($dark-gray, 0.45), 25%,
+    rgba($dark-gray, 0.55)
+  ),
+  url(../img/computer-lab.jpg);
 }
 .service_area{
   padding-top: 120px;
