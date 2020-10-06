@@ -254,7 +254,7 @@
 
   &__imageContainer {
     position: relative;
-    height: 350px;
+    max-height: 350px;
     width: 100%;
 
     &__image-1 {
@@ -262,12 +262,26 @@
       width: 120%;
       position: relative;
       right: -20%;
+
+      @media #{$xs}{
+       max-height: 350px;
+        width: 100%;
+        position: relative;
+        right: 0%;
+      }
     }
     &__image-2 {
       height: 100%;
       width: 120%;
       margin-left: -20%;
       z-index: -10;
+
+      @media #{$xs}{
+        max-height: 350px;
+         width: 100%;
+         position: relative;
+         right: 0%;
+       }
     }
   }
 }

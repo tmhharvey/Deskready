@@ -22,7 +22,7 @@
 			text-align: center;
 		}
 		@media #{$xs}{
-			text-align: left;
+			text-align: center;
 			font-size: 27px;
 		}
   }
@@ -62,12 +62,18 @@
 
 
     .sell-caption{
+
+     
   
         & h1{
           color: $white;
           font-size: 30px;
           text-align: left;
           margin: 10px 0px;
+
+          @media #{$xs}{
+            text-align: center !important;
+          }
         }
         & h3{
           color: $off-white;
@@ -76,12 +82,20 @@
           margin: 10px 0px;
           font-weight: none !important;
           text-transform: none !important;
+
+          @media #{$xs}{
+            text-align: center !important;
+          }
         }
        & p {
           color: $off-white;
           font-size: 20px;
           text-align: left;
           margin: 10px 0px;
+
+          @media #{$xs}{
+            text-align: center !important;
+          }
         }
 
 
@@ -109,6 +123,7 @@
 .sell-icon-container {
   width: 100%;
   margin-top: 20px;
+  text-align: center;
 
 
 }

@@ -2626,9 +2626,12 @@ nav.nav-menu-show {
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(42, 52, 57, 0.9) 40%, rgba(42, 52, 57, 0.95)), url(../img/gallery/geo4.jpg);
     clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%); }
+    @media (max-width: 575px) {
+      .about-area__slant {
+        clip-path: none; } }
   .about-area__subtext {
     font-size: 16px;
-    color: #fff;
+    color: #2A3439;
     line-height: 1.6;
     margin-bottom: 0px;
     padding-right: 50px; }
@@ -2664,22 +2667,33 @@ nav.nav-menu-show {
     .about-area .about-img .about-font-img {
       position: relative;
       z-index: 1; }
-      .about-area .about-img .about-font-img img {
+      .about-area .about-img .about-font-img--1 {
         max-height: 500px; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .about-area .about-img .about-font-img img {
+          .about-area .about-img .about-font-img--1 {
             width: 90%; } }
         @media (min-width: 768px) and (max-width: 991px) {
-          .about-area .about-img .about-font-img img {
+          .about-area .about-img .about-font-img--1 {
             max-width: 500px; } }
         @media (max-width: 575px) {
-          .about-area .about-img .about-font-img img {
+          .about-area .about-img .about-font-img--1 {
+            max-width: 300px; } }
+      .about-area .about-img .about-font-img--2 {
+        max-height: 350px !important; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .about-area .about-img .about-font-img--2 {
+            width: 90%; } }
+        @media (min-width: 768px) and (max-width: 991px) {
+          .about-area .about-img .about-font-img--2 {
+            max-width: 500px; } }
+        @media (max-width: 575px) {
+          .about-area .about-img .about-font-img--2 {
             max-width: 300px; } }
     .about-area .about-img .about-back-img {
       position: absolute;
       z-index: -1;
-      right: 0;
-      top: 43px; }
+      right: -20px;
+      top: 63px; }
       .about-area .about-img .about-back-img img {
         max-height: 45vh; }
         @media (max-width: 575px) {
@@ -4195,18 +4209,30 @@ nav.nav-menu-show {
         color: #FFFAFA; }
   .card-large__imageContainer {
     position: relative;
-    height: 350px;
+    max-height: 350px;
     width: 100%; }
     .card-large__imageContainer__image-1 {
       height: 100%;
       width: 120%;
       position: relative;
       right: -20%; }
+      @media (max-width: 575px) {
+        .card-large__imageContainer__image-1 {
+          max-height: 350px;
+          width: 100%;
+          position: relative;
+          right: 0%; } }
     .card-large__imageContainer__image-2 {
       height: 100%;
       width: 120%;
       margin-left: -20%;
       z-index: -10; }
+      @media (max-width: 575px) {
+        .card-large__imageContainer__image-2 {
+          max-height: 350px;
+          width: 100%;
+          position: relative;
+          right: 0%; } }
 
 .card-caption:hover {
   color: #206200;
@@ -4288,7 +4314,7 @@ nav.nav-menu-show {
         text-align: center; } }
     @media (max-width: 575px) {
       .sell-area h3 {
-        text-align: left;
+        text-align: center;
         font-size: 27px; } }
   .sell-area p {
     color: #FFFAFA;
@@ -4311,6 +4337,9 @@ nav.nav-menu-show {
     font-size: 30px;
     text-align: left;
     margin: 10px 0px; }
+    @media (max-width: 575px) {
+      .sell-card .sell-caption h1 {
+        text-align: center !important; } }
   .sell-card .sell-caption h3 {
     color: #FFFAFA;
     font-size: 20px;
@@ -4318,11 +4347,17 @@ nav.nav-menu-show {
     margin: 10px 0px;
     font-weight: none !important;
     text-transform: none !important; }
+    @media (max-width: 575px) {
+      .sell-card .sell-caption h3 {
+        text-align: center !important; } }
   .sell-card .sell-caption p {
     color: #FFFAFA;
     font-size: 20px;
     text-align: left;
     margin: 10px 0px; }
+    @media (max-width: 575px) {
+      .sell-card .sell-caption p {
+        text-align: center !important; } }
   .sell-card .sell-caption__iconContainer {
     text-align: center;
     font-size: 5rem;
@@ -4337,7 +4372,8 @@ nav.nav-menu-show {
 
 .sell-icon-container {
   width: 100%;
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-align: center; }
 
 .sell-icon {
   display: inline-block;

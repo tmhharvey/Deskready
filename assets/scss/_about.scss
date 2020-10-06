@@ -11,11 +11,15 @@
     ),
     url(../img/gallery/geo4.jpg);
     clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
+
+    @media #{$xs}{
+      clip-path: none;
+  }
   }
 
   &__subtext {
     font-size: 16px;
-    color: #fff;
+    color: $dark-gray;
     line-height: 1.6;
     margin-bottom: 0px;
     padding-right: 50px;
@@ -59,8 +63,21 @@
         .about-font-img{
             position: relative;
             z-index: 1;
-            img {
+            &--1 {
               max-height: 500px;
+                @media #{$lg}{
+                    width: 90%;
+                }
+                @media #{$tablet_device} {
+                  max-width: 500px;
+                } 
+                @media #{$xs}{
+                    max-width: 300px;
+                }
+            }
+
+            &--2 {
+              max-height: 350px !important;
                 @media #{$lg}{
                     width: 90%;
                 }
@@ -76,8 +93,8 @@
         .about-back-img{
             position: absolute;
             z-index: -1;
-            right: 0;
-            top: 43px;
+            right: -20px;
+            top: 63px;
 
             img{
               
