@@ -54,9 +54,10 @@
     rgba($gray, 0.85), 70%,
     rgba($gray, 0.85)
   );
+  min-height: 200px;
 
   &--large {
-    min-height: 500px;
+    min-height: 550px;
   }
 
   &:hover  {

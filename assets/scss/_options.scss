@@ -5,6 +5,7 @@
   .options-card{
     padding: 20px;
     border-radius: 3px;
+   
   
     &--small {
       padding: 0px;
@@ -12,6 +13,7 @@
     }
   
     &:hover  {
+      min-height: 600px;
       background-image: linear-gradient(
           to right bottom,
           rgba($theme-color2, 0.9), 70%,
