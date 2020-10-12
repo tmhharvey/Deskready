@@ -2155,6 +2155,8 @@ hr {
   @media (max-width: 575px) {
     .header-area .main-header {
       padding: 22px 14px; } }
+  .header-area .main-header__logo img {
+    max-height: 25px; }
   .header-area .main-header .main-menu ul li {
     display: inline-block;
     position: relative; }
@@ -2838,7 +2840,7 @@ nav.nav-menu-show {
   color: #206200; }
 
 .service_bg_1 {
-  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/males-computers.jpg); }
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/group-lessons.jpg); }
 
 .service_bg_2 {
   background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/1-on-1.jpg); }
@@ -3619,6 +3621,8 @@ nav.nav-menu-show {
     .footer-area .footer-top .footer-logo {
       margin-bottom: 40px;
       color: #fff; }
+      .footer-area .footer-top .footer-logo img {
+        max-height: 30px; }
     .footer-area .footer-top .footer-pera p {
       color: #ced9e1;
       font-size: 14px;
@@ -4270,10 +4274,15 @@ nav.nav-menu-show {
   padding-bottom: 15px !important; }
   .options-area .options-card {
     padding: 20px;
-    border-radius: 3px; }
+    border-radius: 3px;
+    min-height: 600px; }
     .options-area .options-card--small {
       padding: 0px;
       min-height: 400px; }
+      .options-area .options-card--small:hover {
+        min-height: 400px !important;
+        background-image: linear-gradient(to right bottom, rgba(66, 204, 0, 0.9), 70%, rgba(32, 98, 0, 0.9));
+        cursor: pointer; }
     .options-area .options-card:hover {
       min-height: 600px;
       background-image: linear-gradient(to right bottom, rgba(66, 204, 0, 0.9), 70%, rgba(32, 98, 0, 0.9));

@@ -26,6 +26,13 @@
             padding: 22px 14px;
          }
 
+         &__logo {
+
+           & img {
+             max-height: 25px;
+           }
+         }
+
         /* 2. header */
         .main-menu {
             ul {

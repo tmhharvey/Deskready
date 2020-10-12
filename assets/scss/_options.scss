@@ -5,11 +5,22 @@
   .options-card{
     padding: 20px;
     border-radius: 3px;
+    min-height: 600px;
    
   
     &--small {
       padding: 0px;
       min-height: 400px;
+
+      &:hover  {
+        min-height: 400px !important;
+        background-image: linear-gradient(
+            to right bottom,
+            rgba($theme-color2, 0.9), 70%,
+            rgba($theme-color, 0.9)
+          );
+          cursor: pointer;
+      }
     }
   
     &:hover  {
