@@ -15,7 +15,13 @@
         content: '';
         height: 570px;
         background-repeat: no-repeat;
+
+        &__slant {
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
     }
+
+   
     @media #{$md}{
         padding-top: 100px;
         padding-bottom: 100px;
