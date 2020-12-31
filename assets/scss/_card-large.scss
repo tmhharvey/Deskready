@@ -5,23 +5,23 @@
   & h2 {
     font-size: 35px;
   }
-  
+
   & span {
-		font-size: 18px;
-		font-weight: 400;
-		margin-bottom: 22px;
-		color:#292c37;
-		display: inline-block;
-		position: relative;
-		letter-spacing: 0.05em;
-		@media #{$xs}{
-			font-size: 14px;
-			padding-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    color: #292c37;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 0.05em;
+    @media #{$xs} {
+      font-size: 14px;
+      padding-left: 60px;
     }
   }
 
   .checkMark {
-    &::before{
+    &::before {
       position: absolute;
       content: "\2713";
       background: $theme-color2;
@@ -31,17 +31,16 @@
       left: -55px;
       top: 15px;
       transform: translateY(-50%);
-    
-      @media #{$xs}{
+
+      @media #{$xs} {
         left: 0;
       }
     }
   }
 
   .bullets {
-  
     &--1 {
-      &::before{
+      &::before {
         position: absolute;
         content: "\0031";
         background: $theme-color2;
@@ -52,50 +51,50 @@
         left: -55px;
         top: 15px;
         transform: translateY(-50%);
-      
-        @media #{$xs}{
+
+        @media #{$xs} {
           left: 0;
         }
       }
     }
     &--2 {
-      &::before{
+      &::before {
         position: absolute;
         content: "\0032";
         background: $theme-color2;
         color: $off-white;
         border-radius: 50%;
-       padding: 1px 12px;
+        padding: 1px 12px;
         font-size: 25px;
         left: -55px;
         top: 15px;
         transform: translateY(-50%);
-      
-        @media #{$xs}{
+
+        @media #{$xs} {
           left: 0;
         }
       }
     }
     &--3 {
-      &::before{
+      &::before {
         position: absolute;
         content: "\0033";
         background: $theme-color2;
         color: $off-white;
         border-radius: 50%;
-       padding: 1px 12px;
+        padding: 1px 12px;
         font-size: 25px;
         left: -55px;
         top: 15px;
         transform: translateY(-50%);
-      
-        @media #{$xs}{
+
+        @media #{$xs} {
           left: 0;
         }
       }
     }
     &--4 {
-      &::before{
+      &::before {
         position: absolute;
         content: "\0034";
         background: $theme-color2;
@@ -106,118 +105,111 @@
         left: -55px;
         top: 15px;
         transform: translateY(-50%);
-      
-        @media #{$xs}{
+
+        @media #{$xs} {
           left: 0;
         }
       }
     }
   }
-  
-  .card-bg{
+
+  .card-bg {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-      background-image: linear-gradient(
+    background-image: linear-gradient(
         to right bottom,
         rgba($theme-color, 0.8),
         rgba($theme-color2, 0.8)
       ),
-      url(../img/gallery/geo4.jpg);
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      content: '';
-      height: 700px;
+      url(../img/gallery/geo4-min.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__graphic {
+      background-image: url(../img/group-desk-min.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
+    }
 
-      &__graphic {
-        background-image: url(../img/group-desk.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-   
-      }
+    &--large {
+      height: 1000px;
+    }
+    &--extraLarge {
+      height: 110%;
+      margin-bottom: 150px;
+    }
 
-      &--large {
-        height: 1000px;
-      }
-      &--extraLarge {
-        height: 110%;
-        margin-bottom: 150px;
-      }
+    &--no-slant {
+      clip-path: none;
+    }
+  }
+  @media #{$md} {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @media #{$sm} {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @media #{$xs} {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .card-caption {
+    background: linear-gradient(to bottom, rgba(white, 1), rgba($white, 1));
+    box-shadow: 4px 4px 8px;
+    color: $theme-color;
+    border-radius: 7px;
+    border: 1px solid $white;
+    margin-top: -20px;
+    padding: 15px 20px 50px 20px;
 
-      &--no-slant {
-        clip-path: none;
+    @include transition(0.5s);
+    @media #{$lg} {
+      // padding: 84px 25px 56px;
+    }
+    .card-icon {
+      display: inline-block;
+      position: relative;
+      i {
+        color: #000;
+        display: block;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 42px;
+        @include transition(0.5s);
       }
- 
-  }
-  @media #{$md}{
-      padding-top: 100px;
-      padding-bottom: 100px;
-  }
-  @media #{$sm}{
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  @media #{$xs}{
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .card-caption{
-      background: linear-gradient(
-        to bottom,
-        rgba(white, 1),
-        rgba($white, 1)
-      );
-      box-shadow: 4px 4px 8px;
-      color: $theme-color;
-      border-radius: 7px;
-      border: 1px solid $white;
-      margin-top: -20px;
-      padding: 15px 20px 50px 20px;
-
-      @include transition(.5s);
-      @media #{$lg}{
-          // padding: 84px 25px 56px;
-      }
-      .card-icon{
+    }
+    .card-cap {
+      h4 {
+        a {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 1.2;
+          margin-bottom: 27px;
           display: inline-block;
-          position: relative;
-          i{
-              color: #000;
-              display: block;
-              font-size: 50px;
-              text-align: center;
-              margin-bottom: 42px;
-              @include transition(.5s);
+          text-transform: uppercase;
+          color: #15181d;
+          &:hover {
+            color: $theme-color;
           }
+        }
       }
-      .card-cap{
-          h4{
-              a{
-                  font-size: 20px;
-                  font-weight: 600;
-                  line-height: 1.2;
-                  margin-bottom: 27px;
-                  display: inline-block;
-                  text-transform: uppercase;
-                  color: #15181d;
-                  &:hover{
-                      color:$theme-color;
-                  }
-              }
-          }
-          p{
-              color: #717081;
-              font-size: 15px;
-          }
+      p {
+        color: #717081;
+        font-size: 15px;
       }
+    }
   }
 
   &__image-text-panels {
     margin-bottom: 30px;
-
 
     &__caption-1 {
       background-color: $dark-gray;
@@ -232,10 +224,9 @@
       }
       &__subtext {
         color: $off-white;
-      }    
-     
+      }
     }
-    
+
     &__caption-2 {
       background-color: $dark-gray;
       border-radius: 5px;
@@ -251,8 +242,7 @@
       }
       &__subtext {
         color: $off-white;
-      }    
-     
+      }
     }
   }
 
@@ -267,8 +257,8 @@
       position: relative;
       right: -20%;
 
-      @media #{$xs}{
-       max-height: 350px;
+      @media #{$xs} {
+        max-height: 350px;
         width: 100%;
         position: relative;
         right: 0%;
@@ -280,12 +270,12 @@
       margin-left: -20%;
       z-index: -10;
 
-      @media #{$xs}{
+      @media #{$xs} {
         max-height: 350px;
-         width: 100%;
-         position: relative;
-         right: 0%;
-       }
+        width: 100%;
+        position: relative;
+        right: 0%;
+      }
     }
   }
 }
@@ -296,11 +286,8 @@
   transform: translateY(-15px);
   background-color: #fff;
   border: 1px solid $theme-color2;
-    .card-icon {
-        i{
-          
-        }
+  .card-icon {
+    i {
     }
+  }
 }
-
-

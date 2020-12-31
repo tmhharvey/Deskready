@@ -3,14 +3,15 @@
   padding: 10rem 0 20rem 0;
   background-image: linear-gradient(
       to right bottom,
-      rgba($theme-color2, 0.7), 70%,
+      rgba($theme-color2, 0.7),
+      70%,
       rgba($theme-color, 0.8)
     ),
-    url("../img/gallery/geo4.jpg");
+    url("../img/gallery/geo4-min.jpg");
   background-size: cover;
   transform: skewY(-7deg);
   overflow: hidden;
-  
+
   & > * {
     transform: skewY(7deg);
   }
@@ -24,11 +25,9 @@
     letter-spacing: 1px;
   }
 
-
-  @media #{$sm}{
+  @media #{$sm} {
     padding: 8rem 0;
   }
-  
 }
 
 .feature-box {
@@ -42,13 +41,13 @@
   margin: 0 1.5rem;
   min-height: 400px;
 
-  @media #{$md}{
+  @media #{$md} {
     margin-bottom: 20px;
-   }
-  @media #{$sm}{
+  }
+  @media #{$sm} {
     margin-bottom: 4rem;
   }
-  @media #{$xs}{
+  @media #{$xs} {
     margin-bottom: 4rem;
   }
 
@@ -64,15 +63,9 @@
     font-size: 45px;
     margin-bottom: 0.5rem;
     display: inline-block;
-    background-image: linear-gradient(
-      to right,
-      $theme-color2,
-      $theme-color
-    );
+    background-image: linear-gradient(to right, $theme-color2, $theme-color);
     color: $theme-color;
     -webkit-background-clip: text;
     background-clip: text;
- 
   }
-
 }

@@ -2376,7 +2376,7 @@ nav.nav-menu-show {
 .slider-area2 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg);
   clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%); }
   .slider-area2__btn {
     position: relative;
@@ -2419,7 +2419,7 @@ nav.nav-menu-show {
 .slider-area3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg); }
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg); }
 
 .slider-height4 {
   height: 40vh;
@@ -2437,7 +2437,7 @@ nav.nav-menu-show {
 .slider-area4 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg);
   clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
   color: #ffffff !important; }
   .slider-area4__btn {
@@ -2447,7 +2447,7 @@ nav.nav-menu-show {
 .slider-area .slide-full {
   background-position: center center;
   background-size: cover;
-  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.8), rgba(22, 22, 26, 0.8)), url(../img/FoldedHands.jpg);
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.8), rgba(22, 22, 26, 0.8)), url(../img/FoldedHands-min.jpg);
   clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%); }
 
 .slider-area .slide-full-content {
@@ -2523,25 +2523,29 @@ nav.nav-menu-show {
         padding-right: 0px;
         font-size: 15px; } }
 
-.slide-full-content h1, .slide-full-content > p, .slide-full-content > a {
+.slide-full-content h1,
+.slide-full-content > p,
+.slide-full-content > a {
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-name: fadeOutDown; }
 
-.active .slide-full-content h1, .active .slide-full-content > p, .active .slide-full-content > a {
+.active .slide-full-content h1,
+.active .slide-full-content > p,
+.active .slide-full-content > a {
   animation-name: fadeInLeft; }
 
 .slide-full-content span {
-  animation-delay: .2s; }
+  animation-delay: 0.2s; }
 
 .slide-full-content h1 {
-  animation-delay: .3s; }
+  animation-delay: 0.3s; }
 
 .slide-full-content p {
-  animation-delay: .4s; }
+  animation-delay: 0.4s; }
 
 .slide-full-content a {
-  animation-delay: .6s; }
+  animation-delay: 0.6s; }
 
 .custom-dots .owl-dots {
   position: absolute;
@@ -2735,12 +2739,12 @@ nav.nav-menu-show {
   position: relative;
   z-index: 0; }
   .service-area .service-bg {
-    background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+    background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    content: '';
+    content: "";
     height: 570px;
     background-repeat: no-repeat; }
     .service-area .service-bg__slant {
@@ -3036,7 +3040,7 @@ nav.nav-menu-show {
 
 .experience-area {
   margin-top: 50px;
-  background-image: linear-gradient(to right bottom, rgba(101, 105, 106, 0.9), 60%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(101, 105, 106, 0.9), 60%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg);
   position: relative;
   z-index: 0;
   background-size: cover;
@@ -3117,7 +3121,7 @@ nav.nav-menu-show {
     border-radius: 20px;
     position: relative; }
     .experience-testimonial .testimonial-caption .testimonial-top-cap :after {
-      content: '';
+      content: "";
       position: absolute;
       top: 100%;
       left: 20%;
@@ -3698,7 +3702,7 @@ nav.nav-menu-show {
 .section-features {
   margin: 75px 0px 25px;
   padding: 10rem 0 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(66, 204, 0, 0.7), 70%, rgba(32, 98, 0, 0.8)), url("../img/gallery/geo4.jpg");
+  background-image: linear-gradient(to right bottom, rgba(66, 204, 0, 0.7), 70%, rgba(32, 98, 0, 0.8)), url("../img/gallery/geo4-min.jpg");
   background-size: cover;
   transform: skewY(-7deg);
   overflow: hidden; }
@@ -3801,7 +3805,7 @@ nav.nav-menu-show {
 .slider-area3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg);
   clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
   height: 70vh; }
 
@@ -3892,7 +3896,7 @@ nav.nav-menu-show {
 .hero-area-employer {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(42, 52, 57, 0.9) 40%, rgba(42, 52, 57, 0.95)), url(../img/gallery/geo4.jpg); }
+  background-image: linear-gradient(to bottom, rgba(42, 52, 57, 0.9) 40%, rgba(42, 52, 57, 0.95)), url(../img/gallery/geo4-min.jpg); }
 
 .header-transparent {
   position: absolute;
@@ -3949,14 +3953,14 @@ nav.nav-menu-show {
 .training-area__background-geoWhite {
   margin-top: -50px;
   padding-bottom: 150px;
-  background-image: linear-gradient(to bottom, rgba(247, 247, 253, 0.8), rgba(247, 247, 253, 0.9)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to bottom, rgba(247, 247, 253, 0.8), rgba(247, 247, 253, 0.9)), url(../img/gallery/geo4-min.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
 .training-area__bg-1 {
   margin-top: -50px;
   padding-bottom: 150px;
-  background-image: linear-gradient(to right bottom, rgba(247, 247, 253, 0.95) 60%, rgba(247, 247, 253, 0.9)), url(../img/hero/header1.jpg);
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 253, 0.95) 60%, rgba(247, 247, 253, 0.9)), url(../img/hero/header1-min.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -3974,7 +3978,7 @@ nav.nav-menu-show {
     transition: all 0.6s ease-out 0s;
     background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)); }
   .training-card--bg1 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/sales-group.jpg);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/sales-group-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top; }
@@ -3982,9 +3986,9 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/sales-group.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/sales-group-min.jpg); }
   .training-card--bg2 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/1-on-1-pointing.jpg);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/1-on-1-pointing-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -3992,9 +3996,9 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/1-on-1-pointing.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/1-on-1-pointing-min.jpg); }
   .training-card--bg3 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/ipad-data.jpg);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/ipad-data-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -4002,9 +4006,9 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/ipad-data.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/ipad-data-min.jpg); }
   .training-card--bg4 {
-    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/briefcase.jpg);
+    background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.85), 70%, rgba(42, 52, 57, 0.85)), url(../img/briefcase-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom; }
@@ -4012,7 +4016,7 @@ nav.nav-menu-show {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
-      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/briefcase.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.99), 70%, rgba(42, 52, 57, 0.99)), url(../img/briefcase-min.jpg); }
   .training-card .training-caption h1 {
     color: #42cc00;
     font-size: 65px;
@@ -4149,17 +4153,17 @@ nav.nav-menu-show {
         left: 0; } }
   .card-large .card-bg {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+    background-image: linear-gradient(to right bottom, rgba(32, 98, 0, 0.8), rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    content: '';
+    content: "";
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover; }
     .card-large .card-bg__graphic {
-      background-image: url(../img/group-desk.jpg);
+      background-image: url(../img/group-desk-min.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
@@ -4343,7 +4347,7 @@ nav.nav-menu-show {
 .sell-area {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4.jpg);
+  background-image: linear-gradient(to bottom, rgba(32, 98, 0, 0.65) 40%, rgba(66, 204, 0, 0.8)), url(../img/gallery/geo4-min.jpg);
   clip-path: polygon(0% 0%, 100% 0, 100% 79%, 50% 100%, 0 79%); }
   @media (max-width: 575px) {
     .sell-area {

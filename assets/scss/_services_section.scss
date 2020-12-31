@@ -1,102 +1,97 @@
 .service-area {
-    position: relative;
-    z-index: 0;
-    .service-bg{
-        background-image: linear-gradient(
-          to right bottom,
-          rgba($theme-color, 0.8),
-          rgba($theme-color2, 0.8)
-        ),
-        url(../img/gallery/geo4.jpg);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        content: '';
-        height: 570px;
-        background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  .service-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($theme-color, 0.8),
+        rgba($theme-color2, 0.8)
+      ),
+      url(../img/gallery/geo4-min.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    height: 570px;
+    background-repeat: no-repeat;
 
-        &__slant {
-          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        }
+    &__slant {
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+  }
+
+  @media #{$md} {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @media #{$sm} {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @media #{$xs} {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .services-caption {
+    background: $off-white;
+    padding: 84px 45px 56px;
+    box-shadow: 4px 4px 8px;
+    color: $theme-color;
+    border-radius: 7px;
+    border: 1px solid $white;
+    @include transition(0.5s);
+    @media #{$lg} {
+      padding: 84px 25px 56px;
     }
 
-   
-    @media #{$md}{
-        padding-top: 100px;
-        padding-bottom: 100px;
+    &--large {
+      min-height: 375px;
     }
-    @media #{$sm}{
-        padding-top: 70px;
-        padding-bottom: 70px;
+    .service-icon {
+      display: inline-block;
+      position: relative;
+      i {
+        color: #000;
+        display: block;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 42px;
+        @include transition(0.5s);
+      }
     }
-    @media #{$xs}{
-        padding-top: 70px;
-        padding-bottom: 70px;
+    .service-cap {
+      h4 {
+        a {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 1.2;
+          margin-bottom: 27px;
+          display: inline-block;
+          text-transform: uppercase;
+          color: #15181d;
+          &:hover {
+            color: $theme-color;
+          }
+        }
+      }
+      p {
+        color: #717081;
+        font-size: 15px;
+      }
     }
-    .services-caption{
-        background: $off-white;
-        padding:84px 45px 56px;
-        box-shadow: 4px 4px 8px;
-        color: $theme-color;
-        border-radius: 7px;
-        border: 1px solid $white;
-        @include transition(.5s);
-        @media #{$lg}{
-            padding: 84px 25px 56px;
-        }
-
-        &--large {
-          min-height: 375px;
-        }
-        .service-icon{
-            display: inline-block;
-            position: relative;
-            i{
-                color: #000;
-                display: block;
-                font-size: 50px;
-                text-align: center;
-                margin-bottom: 42px;
-                @include transition(.5s);
-            }
-        }
-        .service-cap{
-            h4{
-                a{
-                    font-size: 20px;
-                    font-weight: 600;
-                    line-height: 1.2;
-                    margin-bottom: 27px;
-                    display: inline-block;
-                    text-transform: uppercase;
-                    color: #15181d;
-                    &:hover{
-                        color:$theme-color;
-                    }
-                }
-            }
-            p{
-                color: #717081;
-                font-size: 15px;
-            }
-        }
-    }
+  }
 }
 // hover
 .services-caption:hover {
-
   color: $theme-color;
 
   box-shadow: 8px 8px 15px;
   transform: translateY(-15px);
   background-color: #fff;
   border: 1px solid $theme-color2;
-    .service-icon {
-        i{
-          
-        }
+  .service-icon {
+    i {
     }
+  }
 }
-
-

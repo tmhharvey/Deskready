@@ -1,32 +1,32 @@
 .training-area {
   h3 {
-		font-size: 30px;
-		display: block;
-		color: $heading-color;
-		font-weight: 800;
-		text-transform: uppercase;
-		@media #{$lg}{
-			font-size: 41px;
-		}
-		@media #{$sm}{
-			font-size: 31px;
-			text-align: center;
-		}
-		@media #{$xs}{
-			text-align: left;
-			font-size: 27px;
-		}
+    font-size: 30px;
+    display: block;
+    color: $heading-color;
+    font-weight: 800;
+    text-transform: uppercase;
+    @media #{$lg} {
+      font-size: 41px;
+    }
+    @media #{$sm} {
+      font-size: 31px;
+      text-align: center;
+    }
+    @media #{$xs} {
+      text-align: left;
+      font-size: 27px;
+    }
   }
 
   &__background-geoWhite {
     margin-top: -50px;
     padding-bottom: 150px;
     background-image: linear-gradient(
-      to bottom,
-      rgba($gray, 0.80),
-      rgba($gray, 0.9)
-    ),
-    url(../img/gallery/geo4.jpg);
+        to bottom,
+        rgba($gray, 0.8),
+        rgba($gray, 0.9)
+      ),
+      url(../img/gallery/geo4-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -35,23 +35,24 @@
     margin-top: -50px;
     padding-bottom: 150px;
     background-image: linear-gradient(
-      to right bottom,
-      rgba($gray, 0.95) 60%,
-      rgba($gray, 0.9)
-    ),
-    url(../img/hero/header1.jpg);
+        to right bottom,
+        rgba($gray, 0.95) 60%,
+        rgba($gray, 0.9)
+      ),
+      url(../img/hero/header1-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 }
 
-.training-card{
+.training-card {
   padding: 20px 20px 20px 20px;
   box-shadow: rgba(48, 55, 64, 0.15) 2px 2px 3px;
   border-radius: 3px;
   background-image: linear-gradient(
     to right bottom,
-    rgba($gray, 0.85), 70%,
+    rgba($gray, 0.85),
+    70%,
     rgba($gray, 0.85)
   );
   min-height: 200px;
@@ -60,185 +61,186 @@
     min-height: 550px;
   }
 
-  &:hover  {
+  &:hover {
     transform: translateY(-8px);
     box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
     transition: all 0.6s ease-out 0s;
     // border: 2px solid $theme-color2;
     background-image: linear-gradient(
       to right bottom,
-      rgba($dark-gray, 0.99), 70%,
+      rgba($dark-gray, 0.99),
+      70%,
       rgba($dark-gray, 0.99)
     );
-
   }
-
-
 
   &--bg1 {
     background-image: linear-gradient(
-      to right bottom,
-      rgba($dark-gray, 0.85), 70%,
-      rgba($dark-gray, 0.85)
-    ),
-    url(../img/sales-group.jpg);
+        to right bottom,
+        rgba($dark-gray, 0.85),
+        70%,
+        rgba($dark-gray, 0.85)
+      ),
+      url(../img/sales-group-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 
-    &:hover  {
+    &:hover {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
       // border: 2px solid $theme-color2;
       background-image: linear-gradient(
-        to right bottom,
-        rgba($dark-gray, 0.99), 70%,
-        rgba($dark-gray, 0.99)
-      ),
-      url(../img/sales-group.jpg);
+          to right bottom,
+          rgba($dark-gray, 0.99),
+          70%,
+          rgba($dark-gray, 0.99)
+        ),
+        url(../img/sales-group-min.jpg);
     }
   }
-  
+
   &--bg2 {
     background-image: linear-gradient(
-      to right bottom,
-      rgba($dark-gray, 0.85), 70%,
-      rgba($dark-gray, 0.85)
-    ),
-    url(../img/1-on-1-pointing.jpg);
+        to right bottom,
+        rgba($dark-gray, 0.85),
+        70%,
+        rgba($dark-gray, 0.85)
+      ),
+      url(../img/1-on-1-pointing-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    &:hover  {
+    &:hover {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
       // border: 2px solid $theme-color2;
       background-image: linear-gradient(
-        to right bottom,
-        rgba($dark-gray, 0.99), 70%,
-        rgba($dark-gray, 0.99)
-      ),
-      url(../img/1-on-1-pointing.jpg);
+          to right bottom,
+          rgba($dark-gray, 0.99),
+          70%,
+          rgba($dark-gray, 0.99)
+        ),
+        url(../img/1-on-1-pointing-min.jpg);
     }
   }
 
   &--bg3 {
     background-image: linear-gradient(
-      to right bottom,
-      rgba($dark-gray, 0.85), 70%,
-      rgba($dark-gray, 0.85)
-    ),
-    url(../img/ipad-data.jpg);
+        to right bottom,
+        rgba($dark-gray, 0.85),
+        70%,
+        rgba($dark-gray, 0.85)
+      ),
+      url(../img/ipad-data-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    &:hover  {
+    &:hover {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
       // border: 2px solid $theme-color2;
       background-image: linear-gradient(
-        to right bottom,
-        rgba($dark-gray, 0.99), 70%,
-        rgba($dark-gray, 0.99)
-      ),
-      url(../img/ipad-data.jpg);
+          to right bottom,
+          rgba($dark-gray, 0.99),
+          70%,
+          rgba($dark-gray, 0.99)
+        ),
+        url(../img/ipad-data-min.jpg);
     }
   }
   &--bg4 {
     background-image: linear-gradient(
-      to right bottom,
-      rgba($dark-gray, 0.85), 70%,
-      rgba($dark-gray, 0.85)
-    ),
-    url(../img/briefcase.jpg);
+        to right bottom,
+        rgba($dark-gray, 0.85),
+        70%,
+        rgba($dark-gray, 0.85)
+      ),
+      url(../img/briefcase-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
 
-    &:hover  {
+    &:hover {
       transform: translateY(-8px);
       box-shadow: rgba(48, 55, 64, 0.15) 7px 7px 11px;
       transition: all 0.6s ease-out 0s;
       // border: 2px solid $theme-color2;
       background-image: linear-gradient(
-        to right bottom,
-        rgba($dark-gray, 0.99), 70%,
-        rgba($dark-gray, 0.99)
-      ),
-      url(../img/briefcase.jpg);
+          to right bottom,
+          rgba($dark-gray, 0.99),
+          70%,
+          rgba($dark-gray, 0.99)
+        ),
+        url(../img/briefcase-min.jpg);
     }
   }
-    .training-caption{
-  
-        & h1{
-          color: $theme-color2;
-          font-size: 65px;
-          text-align: center;
-          margin: 10px 0px;
-        }
-        & h2{
-          color: $theme-color2;
-          font-size: 35px;
-          text-align: center;
-          margin: 10px 0px;
-        }
-        & h3{
-          color: $dark-gray;
-          font-size: 25px;
-          text-align: center;
-          margin: 10px 0px;
-        }
-       & p {
-          text-align: center;
-          color: $white;
-        }
-    
-
-        &__iconContainer {
-          text-align: center;
-          font-size: 5rem;
-          color: $off-white;
-         
-
-          &__icon  {
-            border-radius: 50%;
-            background-color: $theme-color2;
-            padding: 20px;
-          }
-        }
-
-        &__imageContainer {
-          text-align: center;
-          font-size: 15rem;
-          color: $off-white;
-          height: 200px;
-          width: 100%;
-          position: relative;
-
-          &--image {
-            border-radius: 5px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 90%;
-            width: 50%;
-         
-          }
-        }
+  .training-caption {
+    & h1 {
+      color: $theme-color2;
+      font-size: 65px;
+      text-align: center;
+      margin: 10px 0px;
     }
+    & h2 {
+      color: $theme-color2;
+      font-size: 35px;
+      text-align: center;
+      margin: 10px 0px;
+    }
+    & h3 {
+      color: $dark-gray;
+      font-size: 25px;
+      text-align: center;
+      margin: 10px 0px;
+    }
+    & p {
+      text-align: center;
+      color: $white;
+    }
+
+    &__iconContainer {
+      text-align: center;
+      font-size: 5rem;
+      color: $off-white;
+
+      &__icon {
+        border-radius: 50%;
+        background-color: $theme-color2;
+        padding: 20px;
+      }
+    }
+
+    &__imageContainer {
+      text-align: center;
+      font-size: 15rem;
+      color: $off-white;
+      height: 200px;
+      width: 100%;
+      position: relative;
+
+      &--image {
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 90%;
+        width: 50%;
+      }
+    }
+  }
 }
 
 .single-training:hover .training-img img {
-	transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 .training-card:hover h3 {
   color: $white;
 }
-

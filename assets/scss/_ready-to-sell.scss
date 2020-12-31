@@ -1,51 +1,51 @@
 .sell-area {
-  background-repeat:no-repeat ;
+  background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(
-    to bottom,
-    rgba($theme-color, 0.65) 40%,
-    rgba($theme-color2, 0.8)
-  ),
-  url(../img/gallery/geo4.jpg);
+      to bottom,
+      rgba($theme-color, 0.65) 40%,
+      rgba($theme-color2, 0.8)
+    ),
+    url(../img/gallery/geo4-min.jpg);
   clip-path: polygon(0% 0%, 100% 0, 100% 79%, 50% 100%, 0 79%);
 
-  @media #{$xs}{
+  @media #{$xs} {
     clip-path: none;
   }
 
   h3 {
-		font-size: 35px;
-		display: block;
-		color: $white;
-		font-weight: 800;
-		text-transform: uppercase;
-		@media #{$lg}{
-			font-size: 41px;
-		}
-		@media #{$sm}{
-			font-size: 31px;
-			text-align: center;
-		}
-		@media #{$xs}{
-			text-align: center;
-			font-size: 27px;
-		}
+    font-size: 35px;
+    display: block;
+    color: $white;
+    font-weight: 800;
+    text-transform: uppercase;
+    @media #{$lg} {
+      font-size: 41px;
+    }
+    @media #{$sm} {
+      font-size: 31px;
+      text-align: center;
+    }
+    @media #{$xs} {
+      text-align: center;
+      font-size: 27px;
+    }
   }
 
   p {
     color: $off-white;
     font-size: 18px;
-		font-weight: 400;
-		margin: 30px 0px;
-		display: inline-block;
-		position: relative;
+    font-weight: 400;
+    margin: 30px 0px;
+    display: inline-block;
+    position: relative;
     letter-spacing: 0.05em;
     text-align: center;
     width: 500px;
   }
 }
 
-.sell-card{
+.sell-card {
   // background-image: linear-gradient(
   //   to right bottom,
   //   rgba($theme-color, 0.6), 70%,
@@ -53,7 +53,7 @@
   // );
   padding: 20px;
 
-  &:hover  {
+  &:hover {
     transform: translateY(-8px);
     transition: all 0.6s ease-out 0s;
     // border: 2px solid $theme-color2;
@@ -64,90 +64,78 @@
   //   background-color: $off-white;
   // }
 
+  .sell-caption {
+    & h1 {
+      color: $white;
+      font-size: 30px;
+      text-align: left;
+      margin: 10px 0px;
 
-
-    .sell-caption{
-
-     
-  
-        & h1{
-          color: $white;
-          font-size: 30px;
-          text-align: left;
-          margin: 10px 0px;
-
-          @media #{$xs}{
-            text-align: center !important;
-          }
-        }
-        & h3{
-          color: $off-white;
-          font-size: 20px;
-          text-align: left;
-          margin: 10px 0px;
-          font-weight: none !important;
-          text-transform: none !important;
-
-          @media #{$xs}{
-            text-align: center !important;
-          }
-        }
-       & p {
-          color: $off-white;
-          font-size: 20px;
-          text-align: left;
-          margin: 10px 0px;
-
-          @media #{$xs}{
-            text-align: center !important;
-          }
-        }
-
-
-     
-
-        &__iconContainer {
-          text-align: center;
-          font-size: 5rem;
-          color: $off-white;
-         
-
-          &__icon  {
-            border-radius: 50%;
-            background-color: $theme-color2;
-            padding: 20px;
-          }
-        }
+      @media #{$xs} {
+        text-align: center !important;
+      }
     }
+    & h3 {
+      color: $off-white;
+      font-size: 20px;
+      text-align: left;
+      margin: 10px 0px;
+      font-weight: none !important;
+      text-transform: none !important;
+
+      @media #{$xs} {
+        text-align: center !important;
+      }
+    }
+    & p {
+      color: $off-white;
+      font-size: 20px;
+      text-align: left;
+      margin: 10px 0px;
+
+      @media #{$xs} {
+        text-align: center !important;
+      }
+    }
+
+    &__iconContainer {
+      text-align: center;
+      font-size: 5rem;
+      color: $off-white;
+
+      &__icon {
+        border-radius: 50%;
+        background-color: $theme-color2;
+        padding: 20px;
+      }
+    }
+  }
 }
 
 .single-sell:hover .sell-img img {
-	transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 .sell-icon-container {
   width: 100%;
   margin-top: 20px;
   text-align: center;
-
-
 }
 
-.sell-icon{
+.sell-icon {
   display: inline-block;
   background-color: white;
   padding: 15px 20px 10px 20px;
   border-radius: 50%;
   font-size: 30px;
 
-  i{
-      color: #fff;
-      display: block;
-      margin-bottom: 42px;
-      @include transition(.5s);
+  i {
+    color: #fff;
+    display: block;
+    margin-bottom: 42px;
+    @include transition(0.5s);
   }
 }
-
 
 .pw {
   color: $off-white;
