@@ -1,125 +1,128 @@
-@import 'color';
+@import "color";
+@import "variables";
 
-.service_bg_1{
+.service_bg_1 {
   background-image: linear-gradient(
-    to right bottom,
-    rgba($dark-gray, 0.45), 25%,
-    rgba($dark-gray, 0.55)
-  ),
-  url(../img/group-lessons.jpg);
+      to right bottom,
+      rgba($dark-gray, 0.45),
+      25%,
+      rgba($dark-gray, 0.55)
+    ),
+    url(../img/group-lessons.jpg);
 }
 
-.service_bg_2{
+.service_bg_2 {
   background-image: linear-gradient(
-    to right bottom,
-    rgba($dark-gray, 0.45), 25%,
-    rgba($dark-gray, 0.55)
-  ),
-  url(../img/1-on-1.jpg);
+      to right bottom,
+      rgba($dark-gray, 0.45),
+      25%,
+      rgba($dark-gray, 0.55)
+    ),
+    url(../img/1-on-1.jpg);
 }
 
-.service_bg_3{
-  background-image:  linear-gradient(
-    to right bottom,
-    rgba($dark-gray, 0.45), 25%,
-    rgba($dark-gray, 0.55)
-  ),
-  url(../img/computer-lab.jpg);
+.service_bg_3 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($dark-gray, 0.45),
+      25%,
+      rgba($dark-gray, 0.55)
+    ),
+    url(../img/computer-lab.jpg);
 }
-.service_area{
+.service_area {
   padding-top: 120px;
   padding-bottom: 120px;
   @media #{$mobile_device} {
-      padding-top: 50px;
-      padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   @media #{$tablet_device} {
-      padding-top: 100px;
-      padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
-  .single_service{
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin-bottom: 30px;
-      background-position: center;
-      overflow: hidden;
-      .service_hover{
+  .single_service {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-position: center;
+    overflow: hidden;
+    .service_hover {
+      text-align: center;
+      padding: 104px 0 94px 0;
+      background: rgba(0, 0, 0, 0);
+      @include transition(0.5s);
+      position: relative;
+      img {
+      }
+      h3 {
+        font-size: 20px;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+      .hover_content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($dark-gray, 1),
+          25%,
+          rgba($dark-gray, 1)
+        );
+        @include transform(translateY(40%));
+        @include transition(0.5s);
+        opacity: 0;
+        visibility: hidden;
+
+        @media #{$mobile_device} {
+          visibility: visible;
+          opacity: 1;
+          @include transform(translateY(0%));
+        }
+        @media #{$tablet_device} {
+          visibility: visible;
+          opacity: 1;
+          @include transform(translateY(0%));
+        }
+
+        .hover_content_inner {
+          display: table-cell;
+          vertical-align: middle;
           text-align: center;
-          padding: 104px 0 94px 0;
-          background: rgba(0, 0, 0, .00 )  ;
-          @include transition(.5s);
-          position: relative;
-          img{
-
+          padding: 0 54px;
+          @media #{$tablet_device} {
+            padding: 0 10px;
           }
-          h3{
-              font-size: 20px;
-              color: #fff;
-              margin-top: 20px;
-              margin-bottom: 0;
-              
+          h4 {
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 8px;
+            font-weight: bolder;
           }
-          .hover_content{
-              position: absolute;
-              width: 100%;
-              height: 100%;
-              top: 0;
-              left: 0;
-              display: table;
-              width: 100%;
-              height: 100%;
-              background-image: linear-gradient(
-                to right bottom,
-                rgba($dark-gray, 1), 25%,
-                rgba($dark-gray, 1)
-              );
-              @include transform(translateY(40%));
-              @include transition(.5s);
-              opacity: 0;
-              visibility: hidden;
-
-              @media #{$mobile_device} {
-                visibility: visible;
-                opacity: 1;
-                @include transform(translateY(0%));
-              }
-              @media #{$tablet_device} {
-                visibility: visible;
-                opacity: 1;
-                @include transform(translateY(0%));
-              }
-
-              .hover_content_inner{
-                  display: table-cell;
-                  vertical-align: middle;
-                  text-align: center;
-                  padding: 0 54px;
-                  @media #{$tablet_device} {
-                      padding: 0 10px;
-                  }
-                  h4{
-                      font-size: 22px;
-                      color: #fff;
-                      margin-bottom: 8px;
-                      font-weight: bolder;
-                  }
-                  p{
-                      font-size: 16px;
-                      color: #fff;
-                  }
-              }
+          p {
+            font-size: 16px;
+            color: #fff;
           }
+        }
       }
-      &:hover{
-          background-position: top;
-          .hover_content{
-              @include transform(translateY(0%));
-              opacity: 1;
-              visibility: visible;
-          }
-          .service_hover{
-              background: rgba(0, 0, 0, .50 );
-          }
+    }
+    &:hover {
+      background-position: top;
+      .hover_content {
+        @include transform(translateY(0%));
+        opacity: 1;
+        visibility: visible;
       }
+      .service_hover {
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
   }
 }
