@@ -107,10 +107,16 @@
   @media (min-width: 768px) and (max-width: 991px) {
     .service_bg_1 {
       background-image: none; } }
+  @media (max-width: 767px) {
+    .service_bg_1 {
+      background-image: none; } }
 
 .service_bg_2 {
   background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/1-on-1.jpg); }
   @media (min-width: 768px) and (max-width: 991px) {
+    .service_bg_2 {
+      background-image: none; } }
+  @media (max-width: 767px) {
     .service_bg_2 {
       background-image: none; } }
 
@@ -118,6 +124,9 @@
   background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/computer-lab.jpg);
   background-size: cover; }
   @media (min-width: 768px) and (max-width: 991px) {
+    .service_bg_3 {
+      background-image: none; } }
+  @media (max-width: 767px) {
     .service_bg_3 {
       background-image: none; } }
 

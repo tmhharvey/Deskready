@@ -18,6 +18,9 @@
   @media #{$tablet_device} {
     background-image: none;
   }
+  @media #{$mobile_device} {
+    background-image: none;
+  }
 }
 
 .service_bg_2 {
@@ -29,6 +32,9 @@
     ),
     url(../img/1-on-1.jpg);
   @media #{$tablet_device} {
+    background-image: none;
+  }
+  @media #{$mobile_device} {
     background-image: none;
   }
 }
@@ -43,6 +49,9 @@
     url(../img/computer-lab.jpg);
   background-size: cover;
   @media #{$tablet_device} {
+    background-image: none;
+  }
+  @media #{$mobile_device} {
     background-image: none;
   }
 }
