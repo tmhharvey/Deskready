@@ -204,6 +204,9 @@
           @media (min-width: 768px) and (max-width: 991px) {
             .service_area .single_service .service_hover .hover_content .hover_content_inner {
               padding: 10px; } }
+          @media (max-width: 767px) {
+            .service_area .single_service .service_hover .hover_content .hover_content_inner {
+              padding: 15px; } }
           .service_area .single_service .service_hover .hover_content .hover_content_inner h4 {
             font-size: 22px;
             color: #fff;

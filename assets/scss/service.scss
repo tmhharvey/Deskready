@@ -128,6 +128,9 @@
           @media #{$tablet_device} {
             padding: 10px;
           }
+          @media #{$mobile_device} {
+            padding: 15px;
+          }
           h4 {
             font-size: 22px;
             color: #fff;
