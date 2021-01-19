@@ -15,6 +15,9 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+  @media #{$tablet_device} {
+    background-image: none;
+  }
 }
 
 .service_bg_2 {
@@ -25,11 +28,9 @@
       rgba($dark-gray, 0.55)
     ),
     url(../img/1-on-1.jpg);
-  background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  @media #{$tablet_device} {
+    background-image: none;
+  }
 }
 
 .service_bg_3 {
@@ -41,10 +42,9 @@
     ),
     url(../img/computer-lab.jpg);
   background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  @media #{$tablet_device} {
+    background-image: none;
+  }
 }
 .service_area {
   padding-top: 120px;
@@ -58,11 +58,6 @@
     padding-bottom: 100px;
   }
   .single_service {
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 30px;
     background-position: center;
@@ -100,10 +95,6 @@
           25%,
           rgba($dark-gray, 1)
         );
-        -o-background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
         @include transform(translateY(40%));
         @include transition(0.5s);
         opacity: 0;
