@@ -1,5 +1,6 @@
 @import "color";
 @import "variables";
+@import "mixins";
 
 .service_bg_1 {
   background-image: linear-gradient(
@@ -43,6 +44,10 @@
   }
   .single_service {
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 30px;
     background-position: center;
@@ -51,7 +56,11 @@
       text-align: center;
       padding: 104px 0 94px 0;
       background: rgba(0, 0, 0, 0);
-      @include transition(0.5s);
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+
       position: relative;
       img {
       }

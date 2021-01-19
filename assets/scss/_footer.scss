@@ -1,126 +1,122 @@
-@import 'color';
+@import "color";
 
-.footer-area{
-    // Footer Top
-    background-image: linear-gradient(
+.footer-area {
+  // Footer Top
+  background-image: linear-gradient(
       to right bottom,
-      rgba($theme-color, 0.9), 75%,
+      rgba($theme-color, 0.9),
+      75%,
       rgba($dark-gray, 0.9)
     ),
     url(../img/gallery/geo4.jpg);
-    .footer-top{
-        padding-bottom: 80px;
-        @media #{$sm}{
-            padding-bottom: 50px;
-        }
-        @media #{$xs}{
-            padding-bottom: 50px;
-        }
-        .footer-logo{
-            margin-bottom:40px;
-            color: #fff;
-
-            & img {
-            max-height: 30px;
-
-              @media #{$lg}{
-                max-height: 20px;
-              }
-
-              @media #{$xs}{
-                max-height: 15px;
-              }
-            }
-        }
-        .footer-pera{
-            p{
-                color:#ced9e1;
-                font-size: 14px;
-                margin-bottom: 50px;
-                line-height: 1.8;
-            }
-            &.footer-pera2 p{
-                padding: 0;
-            }
-        }
-        .footer-tittle{
-            h4{
-                color: #fff;
-                font-size: 20px;
-                margin-bottom: 29px;
-                font-weight: 500;
-                text-transform: capitalize;
-                font-family:$font_2;
-            }
-            ul{
-                li{
-                    margin-bottom: 15px;
-                    color: #ced9e1;
-                    a{
-                        color: #ced9e1;
-                        font-size: 14px;
-                        font-weight: 300;
-                        &:hover{
-                            color:#fff;
-                            padding-left: 5px;
-                        }
-                       
-                    }
-                }
-            }
-        }
+  .footer-top {
+    padding-bottom: 80px;
+    @media #{$sm} {
+      padding-bottom: 50px;
     }
-    // Footer Bottom
-    .footer-bottom{
-        //copy Right 
-        .footer-copy-right{
-            @media #{$md}{
-                padding-top: 0px;
-                float: left;
-            }      
-            @media #{$sm}{
-                padding-top: 0px;
-                float: left;
-            }    
-            @media #{$xs}{
-                padding-top: 0px;
-                float: left;
-            }
-            p{
-                color: $off-white;
-                font-weight: 300;
-                font-size: 14px;
-                line-height: 2;
-                margin-bottom: 20px;
-                i{
-                    color:$theme-color;
-                }
-                a{
-                    color:$theme-color;
-                }
-            }
-        }  
-        // Social
-        .footer-social{
-            a{
-                color:#ced9e1;
-                font-size: 14px;
-                padding-left: 25px;
-                i {
-                    @include transition(.4s);
-                    transform: rotateY(0deg);
-                }
-                &:hover{
-                    color: #fff;
-                    i {
-                        transform: rotateY(180deg);
-                    }
-                }
-
-            }
-        }
+    @media #{$xs} {
+      padding-bottom: 50px;
     }
+    .footer-logo {
+      margin-bottom: 40px;
+      color: #fff;
+
+      & img {
+        max-height: 35px;
+
+        @media #{$lg} {
+          max-height: 30px;
+        }
+
+        @media #{$xs} {
+          max-height: 15px;
+        }
+      }
+    }
+    .footer-pera {
+      p {
+        color: #ced9e1;
+        font-size: 14px;
+        margin-bottom: 50px;
+        line-height: 1.8;
+      }
+      &.footer-pera2 p {
+        padding: 0;
+      }
+    }
+    .footer-tittle {
+      h4 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 29px;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: $font_2;
+      }
+      ul {
+        li {
+          margin-bottom: 15px;
+          color: #ced9e1;
+          a {
+            color: #ced9e1;
+            font-size: 14px;
+            font-weight: 300;
+            &:hover {
+              color: #fff;
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // Footer Bottom
+  .footer-bottom {
+    //copy Right
+    .footer-copy-right {
+      @media #{$md} {
+        padding-top: 0px;
+        float: left;
+      }
+      @media #{$sm} {
+        padding-top: 0px;
+        float: left;
+      }
+      @media #{$xs} {
+        padding-top: 0px;
+        float: left;
+      }
+      p {
+        color: $off-white;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 2;
+        margin-bottom: 20px;
+        i {
+          color: $theme-color;
+        }
+        a {
+          color: $theme-color;
+        }
+      }
+    }
+    // Social
+    .footer-social {
+      a {
+        color: #ced9e1;
+        font-size: 14px;
+        padding-left: 25px;
+        i {
+          @include transition(0.4s);
+          transform: rotateY(0deg);
+        }
+        &:hover {
+          color: #fff;
+          i {
+            transform: rotateY(180deg);
+          }
+        }
+      }
+    }
+  }
 }
-
-
-

@@ -2159,7 +2159,10 @@ hr {
     .header-area .main-header {
       padding: 22px 14px; } }
   .header-area .main-header__logo img {
-    max-height: 25px; }
+    max-height: 30px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .header-area .main-header__logo img {
+        max-height: 25px; } }
   .header-area .main-header .main-menu ul li {
     display: inline-block;
     position: relative; }
@@ -2230,13 +2233,17 @@ hr {
   position: relative;
   top: -5px; }
 
-.black-menu .hamburger-inner, .black-menu .hamburger-inner::after, .black-menu .hamburger-inner::before {
+.black-menu .hamburger-inner,
+.black-menu .hamburger-inner::after,
+.black-menu .hamburger-inner::before {
   background: #fff none repeat scroll 0 0; }
 
 .hamburger.is-active {
   margin-top: 57px; }
 
-.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
   background: #fff none repeat scroll 0 0;
   height: 2px;
   width: 30px; }
@@ -2932,6 +2939,10 @@ nav.nav-menu-show {
       padding-bottom: 100px; } }
   .service_area .single_service {
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 30px;
     background-position: center;
@@ -2940,10 +2951,10 @@ nav.nav-menu-show {
       text-align: center;
       padding: 104px 0 94px 0;
       background: rgba(0, 0, 0, 0);
-      -webkit-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -o-transition: 0.5s;
-      transition: 0.5s;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
       position: relative; }
       .service_area .single_service .service_hover h3 {
         font-size: 20px;
@@ -3693,10 +3704,10 @@ nav.nav-menu-show {
       margin-bottom: 40px;
       color: #fff; }
       .footer-area .footer-top .footer-logo img {
-        max-height: 30px; }
+        max-height: 35px; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .footer-area .footer-top .footer-logo img {
-            max-height: 20px; } }
+            max-height: 30px; } }
         @media (max-width: 575px) {
           .footer-area .footer-top .footer-logo img {
             max-height: 15px; } }
