@@ -271,7 +271,11 @@ button {
   color: #fff;
   outline: medium none; }
 
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0; }
 
 .uppercase {
@@ -279,9 +283,9 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 input:focus::-moz-placeholder {
   opacity: 0;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s; }
 
 .capitalize {
   text-transform: capitalize; }
@@ -341,7 +345,7 @@ hr {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #2E2200;
+  background-color: #2e2200;
   top: 0;
   left: 0;
   width: 100%;
@@ -453,11 +457,15 @@ hr {
     @media (max-width: 75em) {
       .btn--white {
         margin-top: 10px; } }
-  .btn--inverse:before {
-    background: #ffffff !important; }
-  .btn--inverse:hover {
-    color: #42cc00 !important;
-    font-weight: 900; }
+  .btn--inverse {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+    .btn--inverse:before {
+      background: #ffffff !important; }
+    .btn--inverse:hover {
+      color: #42cc00 !important;
+      font-weight: 900; }
   .btn::after {
     position: absolute;
     content: "";
@@ -492,7 +500,8 @@ hr {
 .btn:hover {
   background-position: right; }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   outline: 0;
   box-shadow: none; }
 
@@ -576,7 +585,8 @@ hr {
   color: #888; }
 
 /* scrollUp */
-#scrollUp, #back-top {
+#scrollUp,
+#back-top {
   background: #42cc00;
   height: 50px;
   width: 50px;
@@ -591,11 +601,14 @@ hr {
   border: 2px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2); }
   @media (max-width: 575px) {
-    #scrollUp, #back-top {
+    #scrollUp,
+    #back-top {
       right: 16px; } }
-  #scrollUp:hover, #back-top:hover {
+  #scrollUp:hover,
+  #back-top:hover {
     background: #206200; }
-  #scrollUp a i, #back-top a i {
+  #scrollUp a i,
+  #back-top a i {
     display: block;
     line-height: 50px; }
 
@@ -1666,9 +1679,9 @@ hr {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
   margin: 0 auto; }
 
 .preloader .preloader-circle {
@@ -1688,9 +1701,9 @@ hr {
   background-color: #fff;
   -webkit-animation: zoom 2000ms infinite ease;
   animation: zoom 2000ms infinite ease;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s; }
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s; }
 
 .preloader .preloader-circle2 {
   border-top-color: #0078ff; }
@@ -1708,9 +1721,9 @@ hr {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-top: 6px;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s; }
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s; }
 
 .preloader .preloader-img img {
   max-width: 55px; }
@@ -1724,29 +1737,29 @@ hr {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s; }
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s; }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s; } }
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s; } }
 
 @keyframes zoom {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s; }
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s; }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s; } }
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s; } }
 
 .slick-initialized .slick-slide {
   outline: 0; }
