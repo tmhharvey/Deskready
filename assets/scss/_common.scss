@@ -308,6 +308,9 @@ hr {
     background-color: $white;
     color: $theme-color;
     font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     &:after {
       position: absolute;
       content: "";
