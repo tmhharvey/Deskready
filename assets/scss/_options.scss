@@ -1,111 +1,117 @@
 .options-area {
   margin: 0px 20px 100px 20px;
   padding-bottom: 15px !important;
-  
-  .options-card{
+
+  .options-card {
     padding: 20px;
     border-radius: 3px;
     min-height: 600px;
-   
-  
+
+    @media #{$xs} {
+      min-height: 200px;
+    }
+
     &--small {
       padding: 0px;
       min-height: 400px;
 
-      &:hover  {
+      &:hover {
         min-height: 400px !important;
         background-image: linear-gradient(
-            to right bottom,
-            rgba($theme-color2, 0.9), 70%,
-            rgba($theme-color, 0.9)
-          );
-          cursor: pointer;
-      }
-    }
-  
-    &:hover  {
-      min-height: 600px;
-      background-image: linear-gradient(
           to right bottom,
-          rgba($theme-color2, 0.9), 70%,
+          rgba($theme-color2, 0.9),
+          70%,
           rgba($theme-color, 0.9)
         );
         cursor: pointer;
+      }
     }
-  
-    &:hover .options-caption .options-caption__iconContainer .options-caption__iconContainer__icon {
+
+    &:hover {
+      min-height: 600px;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($theme-color2, 0.9),
+        70%,
+        rgba($theme-color, 0.9)
+      );
+      cursor: pointer;
+    }
+
+    &:hover
+      .options-caption
+      .options-caption__iconContainer
+      .options-caption__iconContainer__icon {
       background-color: transparent !important;
     }
-  
-    &:hover .options-caption .options-caption__iconContainer .options-caption__iconContainer__num {
+
+    &:hover
+      .options-caption
+      .options-caption__iconContainer
+      .options-caption__iconContainer__num {
       color: $off-white;
     }
-  
+
     &:hover .options-caption strong {
       color: $white !important;
     }
     &:hover .options-caption p {
       color: $white !important;
     }
-  
+
     // &:hover .options-caption__iconContainer__icon {
     //   color: $theme-color2;
     //   background-color: $off-white;
     // }
-  
-      .options-caption{
-        border-radius: 15px;
-        padding: 40px;
-  
-        &--less-padding {
+
+    .options-caption {
+      border-radius: 15px;
+      padding: 40px;
+
+      &--less-padding {
+        padding: 20px;
+      }
+
+      & h3 {
+        color: $dark-gray;
+        font-size: 25px;
+        text-align: center;
+        margin: 10px 0px;
+        min-height: 50px;
+      }
+
+      & h4 {
+        color: $dark-gray;
+        font-size: 21px;
+        text-align: center;
+        margin: 10px 0px;
+        min-height: 50px;
+      }
+
+      & p {
+        text-align: center;
+      }
+
+      &__iconContainer {
+        text-align: center;
+        font-size: 5rem;
+        color: $off-white;
+
+        &__icon {
+          border-radius: 50%;
+          background-color: $theme-color2;
           padding: 20px;
         }
-  
-      
-  
-          & h3{
-            color: $dark-gray;
-            font-size: 25px;
-            text-align: center;
-            margin: 10px 0px;
-            min-height: 50px;
-          }
-
-          & h4{
-            color: $dark-gray;
-            font-size: 21px;
-            text-align: center;
-            margin: 10px 0px;
-            min-height: 50px;
-          }
-
-          & p {
-            text-align: center;
-          }
-  
-       
-  
-          &__iconContainer {
-            text-align: center;
-            font-size: 5rem;
-            color: $off-white;
-           
-  
-            &__icon  {
-              border-radius: 50%;
-              background-color: $theme-color2;
-              padding: 20px;
-            }
-            &__num {
-              padding: 20px;
-              border-radius: 5px;
-              color: $theme-color2;
-            }
-          }
+        &__num {
+          padding: 20px;
+          border-radius: 5px;
+          color: $theme-color2;
+        }
       }
+    }
   }
-  
+
   .single-options:hover .options-img img {
-    transform:scale(1.1);
+    transform: scale(1.1);
   }
 }

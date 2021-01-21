@@ -440,7 +440,10 @@ hr {
   .btn--white {
     background-color: #ffffff;
     color: #206200;
-    font-weight: 700; }
+    font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
     .btn--white:after {
       position: absolute;
       content: "";
@@ -4004,7 +4007,7 @@ nav.nav-menu-show {
       height: 260px; } }
   @media (max-width: 575px) {
     .hero-employer-height {
-      height: 260px; } }
+      height: 300px; } }
 
 .hero-area-employer {
   background-repeat: no-repeat;
@@ -4404,6 +4407,9 @@ nav.nav-menu-show {
     padding: 20px;
     border-radius: 3px;
     min-height: 600px; }
+    @media (max-width: 575px) {
+      .options-area .options-card {
+        min-height: 200px; } }
     .options-area .options-card--small {
       padding: 0px;
       min-height: 400px; }
