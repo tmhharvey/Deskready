@@ -4348,6 +4348,9 @@ nav.nav-menu-show {
       margin-top: 20px;
       margin-left: -10px;
       padding: 15px; }
+      @media (max-width: 575px) {
+        .card-large__image-text-panels__caption-1 {
+          margin-top: -20px; } }
       .card-large__image-text-panels__caption-1 h2 {
         font-size: 35px;
         color: #FFFAFA; }
@@ -4361,6 +4364,10 @@ nav.nav-menu-show {
       padding: 15px;
       z-index: 1;
       position: relative; }
+      @media (max-width: 575px) {
+        .card-large__image-text-panels__caption-2 {
+          margin-right: 0px;
+          margin-bottom: -90px; } }
       .card-large__image-text-panels__caption-2 h2 {
         font-size: 35px;
         color: #FFFAFA; }
@@ -4374,13 +4381,14 @@ nav.nav-menu-show {
       height: 100%;
       width: 140%;
       position: relative;
-      right: -20%; }
+      right: 0; }
       @media (max-width: 575px) {
         .card-large__imageContainer__image-1 {
-          max-height: 350px;
-          width: 100%;
+          width: 170%;
+          height: 100%;
           position: relative;
-          right: 0%; } }
+          top: 40px;
+          left: -50px; } }
     .card-large__imageContainer__image-2 {
       height: 100%;
       width: 140%;
@@ -4388,10 +4396,10 @@ nav.nav-menu-show {
       z-index: -10; }
       @media (max-width: 575px) {
         .card-large__imageContainer__image-2 {
-          max-height: 350px;
-          width: 100%;
+          width: 140%;
+          height: 100%;
           position: relative;
-          right: 0%; } }
+          top: 40px; } }
 
 .card-caption:hover {
   color: #206200;

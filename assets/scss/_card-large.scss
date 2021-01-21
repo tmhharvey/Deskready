@@ -218,6 +218,10 @@
       margin-left: -10px;
       padding: 15px;
 
+      @media #{$xs} {
+        margin-top: -20px;
+      }
+
       & h2 {
         font-size: 35px;
         color: $off-white;
@@ -235,6 +239,11 @@
       padding: 15px;
       z-index: 1;
       position: relative;
+
+      @media #{$xs} {
+        margin-right: 0px;
+        margin-bottom: -90px;
+      }
 
       & h2 {
         font-size: 35px;
@@ -255,13 +264,14 @@
       height: 100%;
       width: 140%;
       position: relative;
-      right: -20%;
+      right: 0;
 
       @media #{$xs} {
-        max-height: 350px;
-        width: 100%;
+        width: 170%;
+        height: 100%;
         position: relative;
-        right: 0%;
+        top: 40px;
+        left: -50px;
       }
     }
     &__image-2 {
@@ -271,10 +281,10 @@
       z-index: -10;
 
       @media #{$xs} {
-        max-height: 350px;
-        width: 100%;
+        width: 140%;
+        height: 100%;
         position: relative;
-        right: 0%;
+        top: 40px;
       }
     }
   }
