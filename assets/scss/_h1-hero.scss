@@ -134,6 +134,7 @@
   .slide-full {
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         to right bottom,
         rgba($dark-gray, 0.8),
@@ -141,6 +142,10 @@
       ),
       url(../img/FoldedHands-min.jpg);
     clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
+    @media #{$xs} {
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
   }
   // Slider Caption
   .slide-full-content {

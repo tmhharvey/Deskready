@@ -2467,8 +2467,13 @@ nav.nav-menu-show {
 .slider-area .slide-full {
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.8), rgba(22, 22, 26, 0.8)), url(../img/FoldedHands-min.jpg);
   clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%); }
+  @media (max-width: 575px) {
+    .slider-area .slide-full {
+      background-size: 100% 100%;
+      background-repeat: no-repeat; } }
 
 .slider-area .slide-full-content {
   overflow: hidden; }
@@ -3039,7 +3044,7 @@ nav.nav-menu-show {
               padding: 10px; } }
           @media (max-width: 767px) {
             .service_area .single_service .service_hover .hover_content .hover_content_inner {
-              padding: 15px; } }
+              padding: 20px 15px; } }
           .service_area .single_service .service_hover .hover_content .hover_content_inner h4 {
             font-size: 22px;
             color: #fff;
