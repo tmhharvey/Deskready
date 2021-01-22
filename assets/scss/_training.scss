@@ -57,6 +57,10 @@
   );
   min-height: 200px;
 
+  @media #{$xs} {
+    min-height: 150px;
+  }
+
   &--large {
     min-height: 550px;
   }

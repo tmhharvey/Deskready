@@ -102,8 +102,7 @@
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; }
+  -webkit-background-size: cover; }
   @media (min-width: 768px) and (max-width: 991px) {
     .service_bg_1 {
       background-image: none; } }
@@ -112,7 +111,11 @@
       background-image: none; } }
 
 .service_bg_2 {
-  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/1-on-1.jpg); }
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/1-on-1.jpg);
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover; }
   @media (min-width: 768px) and (max-width: 991px) {
     .service_bg_2 {
       background-image: none; } }
@@ -122,7 +125,10 @@
 
 .service_bg_3 {
   background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/computer-lab.jpg);
-  background-size: cover; }
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover; }
   @media (min-width: 768px) and (max-width: 991px) {
     .service_bg_3 {
       background-image: none; } }
@@ -206,7 +212,7 @@
               padding: 10px; } }
           @media (max-width: 767px) {
             .service_area .single_service .service_hover .hover_content .hover_content_inner {
-              padding: 15px; } }
+              padding: 20px 15px; } }
           .service_area .single_service .service_hover .hover_content .hover_content_inner h4 {
             font-size: 22px;
             color: #fff;

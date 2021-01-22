@@ -14,7 +14,6 @@
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-size: cover;
   @media #{$tablet_device} {
     background-image: none;
   }
@@ -31,6 +30,10 @@
       rgba($dark-gray, 0.55)
     ),
     url(../img/1-on-1.jpg);
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   @media #{$tablet_device} {
     background-image: none;
   }
@@ -48,6 +51,9 @@
     ),
     url(../img/computer-lab.jpg);
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   @media #{$tablet_device} {
     background-image: none;
   }

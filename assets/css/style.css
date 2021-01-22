@@ -2943,8 +2943,7 @@ nav.nav-menu-show {
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; }
+  -webkit-background-size: cover; }
   @media (min-width: 768px) and (max-width: 991px) {
     .service_bg_1 {
       background-image: none; } }
@@ -2953,7 +2952,11 @@ nav.nav-menu-show {
       background-image: none; } }
 
 .service_bg_2 {
-  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/1-on-1.jpg); }
+  background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/1-on-1.jpg);
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover; }
   @media (min-width: 768px) and (max-width: 991px) {
     .service_bg_2 {
       background-image: none; } }
@@ -2963,7 +2966,10 @@ nav.nav-menu-show {
 
 .service_bg_3 {
   background-image: linear-gradient(to right bottom, rgba(42, 52, 57, 0.45), 25%, rgba(42, 52, 57, 0.55)), url(../img/computer-lab.jpg);
-  background-size: cover; }
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover; }
   @media (min-width: 768px) and (max-width: 991px) {
     .service_bg_3 {
       background-image: none; } }
@@ -4086,6 +4092,9 @@ nav.nav-menu-show {
   border-radius: 3px;
   background-image: linear-gradient(to right bottom, rgba(247, 247, 253, 0.85), 70%, rgba(247, 247, 253, 0.85));
   min-height: 200px; }
+  @media (max-width: 575px) {
+    .training-card {
+      min-height: 150px; } }
   .training-card--large {
     min-height: 550px; }
   .training-card:hover {
@@ -4584,11 +4593,14 @@ nav.nav-menu-show {
     text-align: left !important;
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 16px;
-    width: 100%; }
-    @media (max-width: 991px) {
+    width: 100%;
+    white-space: normal !important;
+    line-height: auto !important;
+    line-height: normal !important; }
+    @media (max-width: 575px) {
       .faq__card__button {
-        font-size: 12px; } }
+        font-size: 12px;
+        width: auto; } }
 
 /*-------------   Color Variable  --------------*/
 .white-bg {
