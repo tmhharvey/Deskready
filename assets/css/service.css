@@ -189,6 +189,7 @@
         @media (max-width: 767px) {
           .service_area .single_service .service_hover .hover_content {
             visibility: visible;
+            backface-visibility: hidden;
             opacity: 1;
             -webkit-transform: translateY(0%);
             -moz-transform: translateY(0%);
@@ -212,7 +213,7 @@
               padding: 10px; } }
           @media (max-width: 767px) {
             .service_area .single_service .service_hover .hover_content .hover_content_inner {
-              padding: 20px 15px; } }
+              padding: 0px 15px; } }
           .service_area .single_service .service_hover .hover_content .hover_content_inner h4 {
             font-size: 22px;
             color: #fff;

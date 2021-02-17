@@ -117,6 +117,7 @@
 
         @media #{$mobile_device} {
           visibility: visible;
+          backface-visibility: hidden;
           opacity: 1;
           @include transform(translateY(0%));
         }
@@ -135,7 +136,7 @@
             padding: 10px;
           }
           @media #{$mobile_device} {
-            padding: 20px 15px;
+            padding: 0px 15px;
           }
           h4 {
             font-size: 22px;
