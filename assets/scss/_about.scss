@@ -1,20 +1,25 @@
-.about-area{
+.about-area {
   padding: 20px 0 20px 0;
 
   &__slant {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(
-      to bottom,
-      rgba($dark-gray, 0.9) 40%,
-      rgba($dark-gray, 0.95)
-    ),
-    url(../img/gallery/geo4.jpg);
+        to bottom,
+        rgba($dark-gray, 0.9) 40%,
+        rgba($dark-gray, 0.95)
+      ),
+      url(../img/gallery/geo4.jpg);
     clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
 
-    @media #{$xs}{
+    @media #{$xs} {
       clip-path: none;
-  }
+      background-image: linear-gradient(
+        to bottom,
+        rgba($dark-gray, 0.9) 40%,
+        rgba($dark-gray, 0.95)
+      );
+    }
   }
 
   &__subtext {
@@ -23,104 +28,101 @@
     line-height: 1.6;
     margin-bottom: 0px;
     padding-right: 50px;
-    @media #{$lg}{
-        padding-right: 20px;
+    @media #{$lg} {
+      padding-right: 20px;
     }
-    @media #{$sm}{
-        padding-right: 0px;
+    @media #{$sm} {
+      padding-right: 0px;
     }
-    @media #{$xs}{
-        padding-right: 0px;
+    @media #{$xs} {
+      padding-right: 0px;
     }
   }
-    // left content
-    .about-caption{
-        @media #{$xs}{
-            margin-bottom: 35px;
-        }
-         p{
-            font-size: 16px;
-            color: #64676c;
-            line-height: 1.6;
-            margin-bottom: 40px;
-            padding-right: 50px;
-            @media #{$lg}{
-                padding-right: 20px;
-            }
-            @media #{$sm}{
-                padding-right: 0px;
-            }
-            @media #{$xs}{
-                padding-right: 0px;
-            }
-        }
-      
+  // left content
+  .about-caption {
+    @media #{$xs} {
+      margin-bottom: 35px;
     }
-    // Right img
-    .about-img{
-        position: relative;
-      
-        .about-font-img{
-            position: relative;
-            z-index: 1;
-            &--1 {
-              max-height: 550px;
-                @media #{$lg}{
-                    width: 90%;
-                }
-                @media #{$tablet_device} {
-                  max-width: 500px;
-                } 
-                @media #{$xs}{
-                    max-width: 300px;
-                }
-            }
-
-            &--2 {
-              max-height: 350px !important;
-                @media #{$lg}{
-                    width: 90%;
-                }
-                @media #{$tablet_device} {
-                  max-width: 500px;
-                } 
-                @media #{$xs}{
-                    max-width: 300px;
-                }
-            }
-        }
-        
-        .about-back-img{
-            position: absolute;
-            z-index: -1;
-            right: -20px;
-            top: 63px;
-
-            img{
-              
-                max-height: 45vh;
-                @media #{$xs}{
-                    display: hidden;
-                }
-            }
-            @media #{$md}{
-                right: 147px;
-            }
-            @media #{$tablet_device} {
-              max-height: 300px;
-              right: 100px;
-            } 
-            @media #{$xs}{
-                display: none;
-            }
-        }
+    p {
+      font-size: 16px;
+      color: #64676c;
+      line-height: 1.6;
+      margin-bottom: 40px;
+      padding-right: 50px;
+      @media #{$lg} {
+        padding-right: 20px;
+      }
+      @media #{$sm} {
+        padding-right: 0px;
+      }
+      @media #{$xs} {
+        padding-right: 0px;
+      }
     }
+  }
+  // Right img
+  .about-img {
+    position: relative;
+
+    .about-font-img {
+      position: relative;
+      z-index: 1;
+      &--1 {
+        max-height: 550px;
+        @media #{$lg} {
+          width: 90%;
+        }
+        @media #{$tablet_device} {
+          max-width: 500px;
+        }
+        @media #{$xs} {
+          max-width: 300px;
+        }
+      }
+
+      &--2 {
+        max-height: 350px !important;
+        @media #{$lg} {
+          width: 90%;
+        }
+        @media #{$tablet_device} {
+          max-width: 500px;
+        }
+        @media #{$xs} {
+          max-width: 300px;
+        }
+      }
+    }
+
+    .about-back-img {
+      position: absolute;
+      z-index: -1;
+      right: -20px;
+      top: 63px;
+
+      img {
+        max-height: 45vh;
+        @media #{$xs} {
+          display: hidden;
+        }
+      }
+      @media #{$md} {
+        right: 147px;
+      }
+      @media #{$tablet_device} {
+        max-height: 300px;
+        right: 100px;
+      }
+      @media #{$xs} {
+        display: none;
+      }
+    }
+  }
 }
-.about-caption{
-    @media #{$xs}{
-        margin-bottom: 35px;
-    }
-	
+.about-caption {
+  @media #{$xs} {
+    margin-bottom: 35px;
+  }
 }
 
 .form-control {
@@ -134,6 +136,3 @@
 .nice-select .list {
   color: $dark-gray;
 }
-
-
-

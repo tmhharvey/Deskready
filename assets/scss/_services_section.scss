@@ -15,6 +15,15 @@
     content: "";
     height: 570px;
     background-repeat: no-repeat;
+    background-size: cover;
+
+    @media #{$xs} {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($theme-color, 0.8),
+        rgba($theme-color2, 0.8)
+      );
+    }
 
     &__slant {
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);

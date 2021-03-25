@@ -12,6 +12,14 @@
   transform: skewY(-7deg);
   overflow: hidden;
 
+  @media #{$xs} {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($theme-color2, 0.7),
+      rgba($theme-color, 0.8)
+    );
+  }
+
   & > * {
     transform: skewY(7deg);
   }

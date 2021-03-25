@@ -29,6 +29,13 @@
       url(../img/gallery/geo4-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    @media #{$xs} {
+      background-image: linear-gradient(
+        to bottom,
+        rgba($gray, 0.8),
+        rgba($gray, 0.9)
+      );
+    }
   }
 
   &__bg-1 {
@@ -42,6 +49,14 @@
       url(../img/sales-handshake2-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media #{$xs} {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($gray, 0.95) 60%,
+        rgba($gray, 0.9)
+      );
+    }
   }
 }
 

@@ -1,90 +1,113 @@
-// 
-// project_area 
-.project_area{
+//
+// project_area
+.project_area {
   padding: 75px 75px;
   margin: 0px 0px 0px 0px;
-   background-image: linear-gradient(
-     to right bottom,
-     rgba($theme-color, 0.8),
-     rgba($theme-color2, 0.8)
-   ),
-   url(../img/gallery/geo4.jpg);
- 
-   @media #{$mobile_device} {
-       padding: 100px 0;
-   }
-   @media #{$tablet_device} {
-       padding: 100px 0;
-   }
-
-   &__gray {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
       to right bottom,
-      rgba($dark-gray, 0.8),
-      rgba($dark-gray, 0.8)
+      rgba($theme-color, 0.8),
+      rgba($theme-color2, 0.8)
     ),
     url(../img/gallery/geo4.jpg);
-   }
 
-   &__white {
+  @media #{$mobile_device} {
+    padding: 100px 0;
+  }
+  @media #{$tablet_device} {
+    padding: 100px 0;
+  }
+
+  @media #{$xs} {
     background-image: linear-gradient(
-      to right bottom, 
-      rgba(247, 247, 253, 0.7) 60%, 
-      rgba(247, 247, 253, 0.7)), 
-      url(../img/gallery/geo4.jpg);
-   }
+      to right bottom,
+      rgba($theme-color, 0.8),
+      rgba($theme-color2, 0.8)
+    );
+  }
 
-   &__arrow {
-    clip-path: polygon(0% 20%, 80% 20%, 80% 0%, 100% 50%, 80% 100%, 80% 80%, 0% 80%);
+  &__gray {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($dark-gray, 0.8),
+        rgba($dark-gray, 0.8)
+      ),
+      url(../img/gallery/geo4.jpg);
+  }
+
+  &__white {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(247, 247, 253, 0.7) 60%,
+        rgba(247, 247, 253, 0.7)
+      ),
+      url(../img/gallery/geo4.jpg);
+
+    @media #{$xs} {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba(247, 247, 253, 0.7) 60%,
+        rgba(247, 247, 253, 0.7)
+      );
+    }
+  }
+
+  &__arrow {
+    clip-path: polygon(
+      0% 20%,
+      80% 20%,
+      80% 0%,
+      100% 50%,
+      80% 100%,
+      80% 80%,
+      0% 80%
+    );
     padding: 125px 75px;
     margin-bottom: 100px;
 
     @media #{$mobile_device} {
       clip-path: none;
+    }
   }
-   }
-   
-   .project_info{
- 
-       h3{
-           color: #fff;
-           font-size: 36px;
-           font-weight: 400;
-           line-height: 55px;
-       }
-       p{
-           font-size: 16px;
-           color: #fff;
-           margin-bottom: 26px;
-           margin-top: 8px;    
-       }
-       .boxed-btn3-white{
-           &:hover{
-               background: #fff;
-               color: #28AE60 !important;
-           }
-       }
-   }
 
-   .project_info--gray{
- 
-    h3{
-        color:$dark-gray;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 55px;
+  .project_info {
+    h3 {
+      color: #fff;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 55px;
     }
-    p{
-        font-size: 16px;
-        color:$dark-gray;
-        margin-bottom: 26px;
-        margin-top: 8px;    
+    p {
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 26px;
+      margin-top: 8px;
     }
-    .boxed-btn3-white{
-        &:hover{
-          color :$dark-gray;
-            color: #28AE60 !important;
-        }
+    .boxed-btn3-white {
+      &:hover {
+        background: #fff;
+        color: #28ae60 !important;
+      }
     }
+  }
+
+  .project_info--gray {
+    h3 {
+      color: $dark-gray;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 55px;
+    }
+    p {
+      font-size: 16px;
+      color: $dark-gray;
+      margin-bottom: 26px;
+      margin-top: 8px;
+    }
+    .boxed-btn3-white {
+      &:hover {
+        color: $dark-gray;
+        color: #28ae60 !important;
+      }
+    }
+  }
 }
- }

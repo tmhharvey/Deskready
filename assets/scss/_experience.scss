@@ -20,6 +20,11 @@
   }
   @media #{$xs} {
     margin-top: 100px;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($theme-color, 0.8),
+      rgba($theme-color2, 0.8)
+    );
   }
 
   .caption-overlay {
