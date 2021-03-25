@@ -4314,6 +4314,9 @@ nav.nav-menu-show {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
+      @media (max-width: 575px) {
+        .card-large .card-bg__graphic {
+          background-image: none; } }
     .card-large .card-bg--large {
       height: 1000px; }
     .card-large .card-bg--extraLarge {
@@ -4415,8 +4418,7 @@ nav.nav-menu-show {
       right: 0; }
       @media (max-width: 575px) {
         .card-large__imageContainer__image-1 {
-          width: 170%;
-          height: 100%;
+          width: 90%;
           position: relative;
           top: 40px;
           left: -50px; } }
