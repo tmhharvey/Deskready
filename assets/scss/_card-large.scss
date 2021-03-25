@@ -135,6 +135,9 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      @media #{$xs} {
+        background-image: none;
+      }
     }
 
     &--large {
@@ -267,8 +270,7 @@
       right: 0;
 
       @media #{$xs} {
-        width: 170%;
-        height: 100%;
+        width: 90%;
         position: relative;
         top: 40px;
         left: -50px;
